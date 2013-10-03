@@ -39,7 +39,7 @@ module.exports = function (grunt) {
       },
       styles: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
-        tasks: ['copy:styles', 'autoprefixer']
+        tasks: ['copy:styles']//, 'autoprefixer']
       },
       livereload: {
         options: {
@@ -249,7 +249,8 @@ module.exports = function (grunt) {
             '.htaccess',
             'bower_components/**/*',
             'images/{,*/}*.{gif,webp}',
-            'styles/fonts/*'
+            'styles/fonts/*',
+            'data/*'
           ]
         }, {
           expand: true,
@@ -337,7 +338,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-      'autoprefixer',
+     // 'autoprefixer',
       'connect:livereload',
       'open',
       'watch'
@@ -347,7 +348,7 @@ module.exports = function (grunt) {
   grunt.registerTask('test', [
     'clean:server',
     'concurrent:test',
-    'autoprefixer',
+    //'autoprefixer',
     'connect:test',
     'karma'
   ]);
@@ -356,7 +357,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'useminPrepare',
     'concurrent:dist',
-    'autoprefixer',
+    //'autoprefixer',
     'concat',
     'copy:dist',
     'cdnify',

@@ -1,6 +1,8 @@
 'use strict';
 
-var app = angular.module('shriExam1App', ['ngRoute']);
+var app = angular.module('shriExam1App',
+                          ['ngRoute',
+                           'shriExam1App.service']);
 
 app.config(function ($routeProvider, $locationProvider) {
     
