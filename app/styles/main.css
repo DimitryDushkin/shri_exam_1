@@ -1,22 +1,52 @@
-body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin,cyrillic);
+ body {
+  font-family:'Istok Web', Helvetica, Arial, sans-serif;
+  background-color: #3C454C;
+}
+.logo {
+  color: #fff
+}
+.logo {
+  background-color: #516166;
+  padding: 10px;
+}
+.logo h2 {
+  margin-top: 0;
+  padding-top: 15px;
+  font-weight: normal;
+}
+.logo h4 {
+  font-weight: normal;
+}
+.main-menu {
+  margin-top: 18px;
+  text-transform: uppercase;
+}
+.main-menu__item {
+  font-size: 135%;
+}
+.main-menu__item a {
+  color: #ccc;
+  margin-top: 7px;
+}
+.main-menu__item a:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+.main-menu__item.active a {
+  color: #fff
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+
+
+.content {
+  padding: 25px 35px;
+  background-color: #F0F0F5;
+  color: #202F33;
 }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+.content__heading {
+  text-shadow: none;
+}
+.content__p {
+  font-size: 130%
 }

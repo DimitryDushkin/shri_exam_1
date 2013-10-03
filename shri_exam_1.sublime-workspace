@@ -1,0 +1,1365 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"loca",
+				"locationProvider"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"mrgin",
+				"margin-top"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"req",
+				"reqPayload"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"in",
+				"INFO  (variable)"
+			],
+			[
+				"p",
+				"put_availability/2"
+			],
+			[
+				"?",
+				"?_assertEqual"
+			],
+			[
+				"ac",
+				"activity/2"
+			],
+			[
+				"w",
+				"write/1"
+			],
+			[
+				"erro_",
+				"error_logger"
+			],
+			[
+				"get",
+				"get_value/2"
+			],
+			[
+				"a",
+				"apply_interval/4"
+			],
+			[
+				"send_",
+				"send_interval/3"
+			],
+			[
+				"sen",
+				"send_interval/2"
+			],
+			[
+				"logger",
+				"error_logger"
+			],
+			[
+				"pu",
+				"put_latency/2"
+			],
+			[
+				"re",
+				"refreshProperties"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"dict",
+				"dict_request"
+			],
+			[
+				"dic",
+				"dict_response"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"json",
+				"json_response"
+			],
+			[
+				"js",
+				"json_response"
+			],
+			[
+				"ws_",
+				"ws_instance"
+			],
+			[
+				"pr",
+				"process_ws"
+			],
+			[
+				"retur",
+				"return_json"
+			],
+			[
+				"ret",
+				"return_json"
+			],
+			[
+				"xml",
+				"xml_doc"
+			],
+			[
+				"WS",
+				"WS_TYPES"
+			],
+			[
+				"ws",
+				"ws_instance"
+			],
+			[
+				"serv",
+				"services"
+			],
+			[
+				"web",
+				"webkit-transform"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"up",
+				"updateList"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"Func",
+				"FunctionResource  (class)"
+			],
+			[
+				"Web",
+				"WebServiceResource"
+			],
+			[
+				"Model",
+				"ModelResource"
+			],
+			[
+				"slide",
+				"slideToggle  (function)"
+			],
+			[
+				"reg",
+				"registry  (module)"
+			],
+			[
+				"service",
+				"serviceId"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ser",
+				"serializers"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"erorr",
+				"error_logger"
+			],
+			[
+				"current_",
+				"current_test_iteration_number"
+			],
+			[
+				"WSsQ",
+				"WSsQueueHttp"
+			],
+			[
+				"s",
+				"stop/0"
+			],
+			[
+				"an",
+				"any()"
+			],
+			[
+				"str",
+				"string()"
+			],
+			[
+				"eror",
+				"error_logger"
+			],
+			[
+				"e",
+				"error_msg/1"
+			],
+			[
+				"error",
+				"error_logger"
+			],
+			[
+				"ge",
+				"get_status/1"
+			],
+			[
+				"err",
+				"error_logger"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"late",
+				"latencies"
+			],
+			[
+				"laten",
+				"latency"
+			],
+			[
+				"latenc",
+				"latencies"
+			],
+			[
+				"py",
+				"pyplot  (module)"
+			],
+			[
+				"disk",
+				"disk_log"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"selected_items":
+		[
+			[
+				"head",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3col2",
+				"Snippet: bs3-col-2"
+			],
+			[
+				"bs3-ro",
+				"Snippet: bs3-row"
+			],
+			[
+				"grid",
+				"Snippet: bs3-list-group-linked"
+			],
+			[
+				"boots",
+				"Snippet: bs3-block-button-success"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jshin",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jshi",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefre",
+				"Preferences: Settings - Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"emp",
+				"Snippet: Emphasis Text"
+			],
+			[
+				"bold",
+				"Snippet: Boldface Text"
+			],
+			[
+				"emph",
+				"Snippet: Emphasis Text"
+			],
+			[
+				"inta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"eq",
+				"Snippet: Equation"
+			],
+			[
+				"enu",
+				"Snippet: Enumerate"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"listing",
+				"Snippet: Listing"
+			],
+			[
+				"list",
+				"Snippet: Listing"
+			],
+			[
+				"figu",
+				"Snippet: figure"
+			],
+			[
+				"item",
+				"Snippet: Itemize"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"fig",
+				"Snippet: figure"
+			],
+			[
+				"ite",
+				"Snippet: Itemize"
+			],
+			[
+				"enum",
+				"Snippet: Enumerate"
+			],
+			[
+				"math",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"eem",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"equ",
+				"Snippet: Equation"
+			],
+			[
+				"en",
+				"Snippet: Enumerate"
+			],
+			[
+				"figure",
+				"Snippet: figure"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"form",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"auto",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"int",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 320.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/index.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/Gruntfile.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.gitignore",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/main.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/app.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/main.css",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootswatch.slate.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/navs.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/type.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.slate.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/students.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/bower.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/variables.slate.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/dist/index.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/package.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.jshintrc",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/project-stub/desktop.bundles/index/index.bemjson.js",
+		"/Users/ddushkin/Desktop/natalia/simpsons/parallaxSimpsons.html",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/project-stub/desktop.bundles/index/index.bemdecl.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/project-stub/package.json",
+		"/Users/ddushkin/Google Диск/Work/ИПУ РАН/Мои статьи/Автоматизированное определение класса чувствительности/ubs.cls",
+		"/Users/ddushkin/Google Диск/Work/ИПУ РАН/Мои статьи/Автоматизированное определение класса чувствительности/auto_classify_sens_ubs.tex",
+		"/Users/ddushkin/Google Диск/Work/ИПУ РАН/Мои статьи/Автоматизированное определение класса чувствительности/auto_classify_sens.tex",
+		"/Users/ddushkin/Google Диск/Work/ИПУ РАН/Мои статьи/Автоматизированное определение класса чувствительности/Версия для публикации в УБС/auto_classify_sens_ubs.tex",
+		"/Users/ddushkin/Dropbox/Studies/Яндекс ШРИ 2013/homework_2/task.hs",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/references.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/intro.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_conclusion.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_styles.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_works.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_content.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_title.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/styles.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_intro.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/part2.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/part3.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/conclusion.tex",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/title.tex",
+		"/private/var/folders/x8/6k6tl1x133318cgcrl0g91tw0000gp/T/fz3temp-1/index.html",
+		"/Users/ddushkin/Desktop/Наташино/grid_layout.html",
+		"/Users/ddushkin/Desktop/Наташино/test_overflow.html",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/dissertation.tex",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools_/LaTeX.sublime-build.OLD",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/part1.tex",
+		"/Users/ddushkin/Desktop/factorions.html",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/diss_introduction.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/introduction.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_new_content.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/packages.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/part4.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/contents.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/names.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/lists.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_new_contents.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/autoref_contents.tex",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/tmp/dissertation.bbl",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/appendix.tex",
+		"/Users/ddushkin/Downloads/1.bib",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/utfgost2008.bst",
+		"/Users/ddushkin/Desktop/pyr.amsbib",
+		"/Users/ddushkin/Downloads/321.bib",
+		"/Users/ddushkin/Downloads/123.bib",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/for_spoj.txt",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/spoj.py",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Мои статьи/Автоматизированное определение класса чувствительности/auto_classify_sens.tex",
+		"/Users/ddushkin/Downloads/asd.bib",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Грант РФФИ: СОА, веб-сервисы/Отчет/Пункт 3.6.tex",
+		"/Users/ddushkin/Downloads/klik.xz",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/library.bib",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/bibl_v4.bib",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/etc.bib",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Мои статьи/Статья про чувствительность/sensitivity_article.tex",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/dissertation.log",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/dissertation.pdf",
+		"/usr/local/texlive/2012/texmf-config/dvipdfm/config",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/missfont.log",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/dissertation.lot",
+		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/dissertation.toc",
+		"/Users/ddushkin/Dropbox/Studies/Аспирантура/_Диссертация_/Dissertation_text/dissertation.tex",
+		"/Users/ddushkin/Dropbox/Studies/Аспирантура/_Диссертация_/_Текст диссертации/introduction.tex",
+		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/packages.tex",
+		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/styles.tex",
+		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/dissertation.tex",
+		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/part2.tex",
+		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/dissertation.synctex.gz",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/__Main__Latex/title.tex",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/__Main__Latex/dissertation.tex",
+		"/Users/ddushkin/Desktop/Main LaTeX/dissertation.tex",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/Main LaTeX/dissertation.tex",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/dissertation.tex",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/packages.tex",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/styles.tex",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/title.tex",
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/names.tex",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_tester_tests.erl",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/registry/views.py",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_tester.erl",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/js/app.js",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_db.erl",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/registry/models.py",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/main.css",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/partials/service-add.html",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/js/service-detail-ctrl.js",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/partials/service-detail.html",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/js/service-add-ctrl.js",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/index.html",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/index.yaml",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/docs/readme",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_web_face.erl",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 2/Packages/Java/JavaC.sublime-build",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_db_tests.erl",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_app.erl",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/erlang_ws_tester.app.src",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/ol_server.erl",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_app_tests.erl",
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_tester_test.erl"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"",
+			"part4.tex",
+			"",
+			"old_sites.txt",
+			"sites.txt",
+			"",
+			"here",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"concat",
+			"-item",
+			"radi",
+			"radius",
+			"pill",
+			"button",
+			"instal",
+			"load",
+			"load]",
+			"bower",
+			"1.2.0-rc2",
+			"~1.0.7",
+			"',",
+			"\"",
+			"~1.0.7",
+			"\\textar",
+			"Тогда",
+			"caption",
+			"golfer.ps",
+			"\\end{figure}",
+			"\\vspace*{-1.5mm}",
+			"\\vspace*{-1mm}",
+			"\\vspace{1mm}",
+			"\\vspace{3mm}",
+			"\\vspace{5mm}",
+			"«",
+			"Для ре",
+			"0.5em",
+			"как крит",
+			"реализую",
+			"и метод",
+			"textbf",
+			"href",
+			"c.",
+			"с.",
+			"1,",
+			"уткин",
+			"1!",
+			"\n",
+			"ЛПР",
+			"рациональный выбор",
+			"сервис-ориентированной архитектуры",
+			"В связи с этим при проектировании систем с СОА возникают две связанные задачи: формирование набора критериев сравнения веб-сервисов и рациональный выбор композиции веб-сервисов для решения определенной задачи. Под рациональным выбором\n",
+			"рациональным выбором",
+			"метод оп",
+			"\\textbf{",
+			"mu(x)",
+			"x",
+			"MTBF_",
+			"не пред",
+			"В совр",
+			"Литл",
+			"»",
+			"«",
+			"*",
+			"\\l",
+			"Васи",
+			"уменьшим",
+			"Бело",
+			"\\item",
+			"предпо",
+			"ое",
+			"label",
+			"»",
+			"«",
+			"вею",
+			"Compute",
+			"compute",
+			"Compute",
+			"compute",
+			"Compute",
+			"}",
+			"{",
+			"lstlisting",
+			"Приложение 3.",
+			"Приложение 2.",
+			"0.5",
+			"0",
+			"0.7",
+			"Архит",
+			"cite",
+			"itemize",
+			"cite",
+			"href",
+			"засчет",
+			"\\cite",
+			"apih",
+			"раздел",
+			"лица",
+			"fig",
+			"textem",
+			"график",
+			"width=1.0",
+			"cite",
+			"n",
+			"конфиг",
+			"todo",
+			"2013",
+			"fig",
+			"система",
+			"Разработанная",
+			"процесса про",
+			"Диагр",
+			"ациоа",
+			"рациоа",
+			"рацио",
+			"рациоан",
+			"рациоан\\",
+			"рациоан",
+			"рацио",
+			"оанал",
+			"анал",
+			"оптимальной по предпочтениям",
+			"\\hline ",
+			"\\cline",
+			"прилож",
+			"основы",
+			"вас",
+			"ЛПР",
+			"tabular",
+			"15mm",
+			"класс",
+			"классы",
+			"\\item",
+			"Рисунок",
+			"рис.",
+			"right",
+			"center"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"сервис-ориентированной архитектуры",
+			"\\}",
+			"\\{",
+			"Рисунок",
+			"{",
+			"ol_server",
+			"utils_http_uri",
+			"utils_common",
+			"й",
+			"<",
+			"</p>",
+			"<p>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 152.0
+	},
+	"output.sublimerl":
+	{
+		"height": 138.0
+	},
+	"project": "shri_exam_1.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"slate",
+				"app/bower_components/bootstrap/less/bootswatch.slate.less"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"index.bem",
+				"desktop.bundles/index/index.bemjson.js"
+			],
+			[
+				"t",
+				"title.tex"
+			],
+			[
+				"co",
+				"conclusion.tex"
+			],
+			[
+				"s",
+				"styles.tex"
+			],
+			[
+				"aut",
+				"autoref.tex"
+			],
+			[
+				"cons",
+				"autoref_conclusion.tex"
+			],
+			[
+				"st",
+				"styles.tex"
+			],
+			[
+				"pa",
+				"packages.tex"
+			],
+			[
+				"dis",
+				"dissertation.tex"
+			],
+			[
+				"4",
+				"part4.tex"
+			],
+			[
+				"bbl",
+				"tmp/dissertation.bbl"
+			],
+			[
+				"2",
+				"part2.tex"
+			],
+			[
+				"p1",
+				"part1.tex"
+			],
+			[
+				"d",
+				"dissertation.tex"
+			],
+			[
+				"nam",
+				"names.tex"
+			],
+			[
+				"sty",
+				"styles.tex"
+			],
+			[
+				"3",
+				"part3.tex"
+			],
+			[
+				"p3",
+				"part3.tex"
+			],
+			[
+				"1",
+				"part1.tex"
+			],
+			[
+				"p",
+				"packages.tex"
+			],
+			[
+				"pac",
+				"packages.tex"
+			],
+			[
+				"in",
+				"introduction.tex"
+			],
+			[
+				"part1",
+				"part1.tex"
+			],
+			[
+				"di",
+				"dissertation.tex"
+			],
+			[
+				"view",
+				"ws_registry_gae/registry/views.py"
+			],
+			[
+				"mode",
+				"ws_registry_gae/registry/models.py"
+			],
+			[
+				"et_db",
+				"ws_registry_erlang_server/apps/erlang_ws_tester/src/et_db.erl"
+			],
+			[
+				"et_te",
+				"ws_registry_erlang_server/apps/erlang_ws_tester/src/et_tester.erl"
+			],
+			[
+				"mo",
+				"ws_registry_gae/registry/models.py"
+			],
+			[
+				"add",
+				"ws_registry_gae/static/js/service-add-ctrl.js"
+			],
+			[
+				"add-",
+				"ws_registry_gae/static/js/service-add-ctrl.js"
+			],
+			[
+				"model",
+				"ws_registry_gae/registry/models.py"
+			],
+			[
+				"main.css",
+				"ws_registry_gae/static/main.css"
+			],
+			[
+				"index",
+				"ws_registry_gae/static/index.html"
+			],
+			[
+				"detail",
+				"ws_registry_gae/static/js/service-detail-ctrl.js"
+			],
+			[
+				"v",
+				"ws_registry_gae/registry/views.py"
+			],
+			[
+				"deta",
+				"ws_registry_gae/static/partials/service-detail.html"
+			],
+			[
+				"et_d",
+				"ws_registry_erlang_server/apps/erlang_ws_tester/src/et_db.erl"
+			],
+			[
+				"detai",
+				"ws_registry_gae/static/partials/service-detail.html"
+			],
+			[
+				"main",
+				"ws_registry_gae/main.py"
+			],
+			[
+				"sett",
+				"ws_registry/ws_registry/settings.py"
+			],
+			[
+				"m",
+				"ws_registry/registry/models.py"
+			],
+			[
+				"url",
+				"ws_registry/ws_registry/urls.py"
+			],
+			[
+				"list",
+				"ws_registry/ws_registry/static/js/service-list-ctrl.js"
+			],
+			[
+				"ur",
+				"ws_registry/ws_registry/urls.py"
+			],
+			[
+				"settin",
+				"ws_registry/ws_registry/settings.py"
+			],
+			[
+				"views",
+				"ws_registry/registry/views.py"
+			],
+			[
+				"api",
+				"ws_registry/registry/api.py"
+			],
+			[
+				"boot",
+				"ws_registry/ws_registry/static/libs/bootstrap/css/bootstrap.min.css"
+			],
+			[
+				"webface",
+				"ws_registry_erlang_server/apps/erlang_ws_tester/src/et_web_face.erl"
+			],
+			[
+				"app_te",
+				"ws_registry_erlang_server/apps/erlang_ws_tester/test/et_app_test.erl"
+			],
+			[
+				"test",
+				"ws_registry_erlang_server/apps/erlang_ws_tester/.eunit/et_app_test.erl"
+			],
+			[
+				"sup",
+				"ws_registry_erlang_server/apps/et/src/et_sup.erl"
+			],
+			[
+				"e",
+				"ws_registry_erlang_server/apps/et/src/et_app.erl"
+			],
+			[
+				"et_app",
+				"ws_registry_erlang_server/apps/et/.eunit/et_app.erl"
+			],
+			[
+				"webfa",
+				"ws_registry_erlang_server/apps/et/src/et_web_face.erl"
+			],
+			[
+				"et_tes",
+				"ws_registry_erlang_server/apps/et/test/et_test.erl"
+			],
+			[
+				"et_a",
+				"ws_registry_erlang_server/apps/et/src/et_app.erl"
+			],
+			[
+				"webfaceerl",
+				"ws_registry_erlang_server/apps/et/src/et_web_face.erl"
+			],
+			[
+				"web_erl",
+				"ws_registry_erlang_server/bin/start_erl.cmd"
+			],
+			[
+				"css",
+				"ws_registry/ws_registry/static/main.css"
+			],
+			[
+				"mod",
+				"registry/models.py"
+			],
+			[
+				"li",
+				"ws_registry/static/partials/service-list.html"
+			],
+			[
+				"vi",
+				"registry/views.py"
+			],
+			[
+				"lis",
+				"ws_registry/static/partials/service-list.html"
+			],
+			[
+				"det",
+				"ws_registry/static/partials/service-detail.html"
+			],
+			[
+				"all",
+				"ws_registry/static/partials/service-list.html"
+			],
+			[
+				"se",
+				"ws_registry/settings.py"
+			],
+			[
+				"set",
+				"ws_registry/settings.py"
+			],
+			[
+				"models",
+				"registry/models.py"
+			],
+			[
+				"urls",
+				"ws_registry/urls.py"
+			],
+			[
+				"jq",
+				"static/libs/jquery-1.7.1.min.js"
+			],
+			[
+				"jquery",
+				"static/libs/jquery-1.7.1.min.js"
+			],
+			[
+				"old",
+				"erlang_app/apps/ol/old_sites.txt"
+			],
+			[
+				"sites",
+				"erlang_app/apps/ol/sites.txt"
+			],
+			[
+				"ol_server",
+				"erlang_app/apps/ol/src/ol_server.erl"
+			],
+			[
+				"ol",
+				"erlang_app/apps/ol/src/ol_main.erl"
+			],
+			[
+				"server",
+				"erlang_app/apps/ol/.eunit/ol_server.erl"
+			],
+			[
+				"site",
+				"erlang_app/apps/ol/sites.txt"
+			],
+			[
+				"ol_",
+				"erlang_app/apps/ol/src/ol_server.erl"
+			],
+			[
+				"ol_web",
+				"erlang_app/apps/ol/.eunit/ol_web_face.erl"
+			],
+			[
+				"ol_we",
+				"erlang_app/apps/ol/.eunit/ol_web_face.erl"
+			],
+			[
+				"ol_ser",
+				"erlang_app/apps/ol/.eunit/ol_server.erl"
+			],
+			[
+				"ol_s",
+				"erlang_app/apps/ol/src/ol_server.erl"
+			],
+			[
+				"ol_server_",
+				"erlang_app/apps/ol/.eunit/ol_server_test.erl"
+			],
+			[
+				"make",
+				"erlang_app/Makefile"
+			],
+			[
+				"ol_da",
+				"erlang_app/app/ol/src/ol_data_collector.erl"
+			],
+			[
+				"ol_data",
+				"erlang_app/app/ol/src/ol_data_collector.erl"
+			],
+			[
+				"uncert",
+				"erlang_app/app/ol/.eunit/ol_uncert_test.erl"
+			],
+			[
+				"unce",
+				"erlang_app/app/ol/src/ol_uncertainty_data_collector.erl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
