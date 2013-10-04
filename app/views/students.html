@@ -1,7 +1,22 @@
 <h1 class="content__heading">Ученики</h1>
 
-<ul>
-  <li ng-repeat="s in students">
-    {{ s.first_name }}
+<ul class="students__list">
+  <li ng-repeat="s in students" class="row students__list__item">
+    <div class="col-md-4">
+      <div class="tucked-corners top-corners">
+        <img src="{{ s.link_photo }}" class="student__photo">
+      </div>
+      <span class="tucked-corners bottom-corners"></span>
+    </div>
+    <div class="col-md-8 student__details">
+      {{ s.first_name }} {{ s.last_name }}
+      Город: {{ s.city }}
+      <!-- Описание: {{ s.about }} -->
+      
+      <!-- <a href="{{ link_facebook }}">Facebook</a>
+      <a href="{{ link_vk }}">VK</a>
+      <a href="{{ link_gihub }}">github</a>
+      <a href="{{ link_yaru }}">ya.ru</a> -->
+    </div>
   </li>
 </ul>

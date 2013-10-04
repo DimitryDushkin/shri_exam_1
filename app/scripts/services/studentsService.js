@@ -6,8 +6,8 @@ angular.module('shriExam1App.service', [])
       dataFile: 'data/students.json',
 
       /**
-       * Get students data as array
-       * @return {$q.defer().promise} Promise object with future data
+       * Функция возвращает данные по всем студентам
+       * @return {$q.defer().promise} Promise object with future data as js array
        */
       getStudents: function() {
         return $http.get(this.dataFile)
