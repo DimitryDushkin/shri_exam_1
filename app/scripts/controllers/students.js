@@ -6,4 +6,5 @@ angular.module('shriExam1App')
 
       $scope.students = studentsService.getStudents();
 
-    }]);
+    }]
+  );

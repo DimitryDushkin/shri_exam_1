@@ -12,6 +12,10 @@ app.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/lectors', {
+        templateUrl: 'views/lectors.html',
+        controller: 'LectorsCtrl'
+      })
       .when('/students', {
         templateUrl: 'views/students.html',
         controller: 'StudentsCtrl'

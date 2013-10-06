@@ -18,16 +18,15 @@ body {
 .logo h2 {
   margin-top: 0;
   padding-top: 5px;
-  font-weight: normal;
+  font-weight: bold;
 }
 .logo h1 {
   margin: 10px 0 0 0;
-}
-.logo h1:first-letter {
-  color: #ff0000;
+  font-size: 3.1em;
 }
 .logo h4 {
   font-weight: normal;
+  font-size: 17px;
 }
 .main-menu {
   margin-top: 18px;
@@ -74,7 +73,8 @@ body {
   z-index: 100;
   font-size: 140%;
 }
-.students__list {
+
+.students__list  {
   margin-top: 45px;
   margin-left: -25px;
 }
@@ -131,12 +131,14 @@ body {
 
 /* ================= Students' photos frame effect ================ */
 
-div.tucked-corners {
-  margin: 0px auto 64px auto;
+.student__photo {
   padding: 10px;
-  width: 100%;
   background-color: #fff;
   box-shadow: 0 1px 5px #aaa;
+}
+div.tucked-corners {
+  margin: 0px auto 64px auto;
+  width: 100%;
 }
 span.tucked-corners {
   margin-top: -85px;
@@ -161,14 +163,14 @@ span.tucked-corners {
   left: -9%;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg)
+      -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 .top-corners:before {
   right: -9%;
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg)
+      -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 

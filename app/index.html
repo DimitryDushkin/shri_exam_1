@@ -34,7 +34,7 @@
           <!-- Меню -->
           <ul class="nav nav-stacked main-menu">
             <li class="main-menu__item" ng-class="{active: isActive('/')}"><a href="#!/">О ШРИ</a></li>
-            <li class="main-menu__item" ng-class="{active: isActive('/lectors_and_lectures')}"><a href="#!/lectors_and_lectures">Лекторы &amp; лекции</a></li>
+            <li class="main-menu__item" ng-class="{active: isActive('/lectors')}"><a href="#!/lectors">Лекторы &amp; лекции</a></li>
             <li class="main-menu__item" ng-class="{active: isActive('/students')}"><a href="#!/students">Ученики</a></li>
           </ul>
           <!-- /Меню -->
@@ -68,9 +68,10 @@
 
     <!-- build:js({.tmp,app}) scripts/app.min.js -->
     <script src="scripts/app.js"></script>
-    <script src="scripts/services/studentsService.js"></script>
+    <script src="scripts/services/services.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/students.js"></script>
+    <script src="scripts/controllers/lectors.js"></script>
     <!-- endbuild -->
 
     <style type="text/css">

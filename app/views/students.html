@@ -4,7 +4,7 @@
   <li ng-repeat="s in students | orderBy:'last_name'" class="row students__list__item">
     <div class="col-md-4">
       <div class="tucked-corners top-corners">
-        <img ng-if="s.link_photo" ng-src="{{ s.link_photo }}" class="student__photo ng-cloak">
+        <img ng-if="s.link_photo" ng-src="{{ s.link_photo }}" class="student__photo" style="-webkit-transform: rotate({{ s.rotation_degree }}deg)">
       </div>
       <span class="tucked-corners bottom-corners"></span>
     </div>
@@ -22,7 +22,7 @@
       </button>
       <div ng-if="show_about" class="student__about">
         <div ng-if="s.city"><span class="text-muted">Город:</span> {{ s.city }}</div>
-        <div ng-if"s.about">{{ s.about }}</div>
+        <div ng-if="s.about" style="white-space: pre-line">{{ s.about }}</div>
       </div>  
     </div>
   </li>

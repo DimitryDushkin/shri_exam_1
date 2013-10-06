@@ -1,0 +1,16 @@
+<h1 class="content__heading">Лекторы &amp; лекции</h1>
+
+<ul class="students__list">
+  <li ng-repeat="l in lectors | orderBy:'name'" class="row students__list__item">
+    <div class="col-md-4">
+      <div class="tucked-corners top-corners">
+        <img ng-if="l.photo_url" ng-src="{{ l.photo_url }}" class="student__photo" style="-webkit-transform: rotate({{ l.rotation_degree }}deg)">
+      </div>
+      <span class="tucked-corners bottom-corners"></span>
+    </div>
+    <div class="col-md-8 student__details">
+      <div class="student__name">{{ l.name }}</div>
+      
+    </div>
+  </li>
+</ul>
