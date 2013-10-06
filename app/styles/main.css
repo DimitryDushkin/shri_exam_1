@@ -1,19 +1,30 @@
-@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin,cyrillic);
- body {
-  font-family:'Istok Web', Helvetica, Arial, sans-serif;
-  background-color: #3C454C;
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+body {
+  font-family: 'Istok Web', Helvetica, Arial, sans-serif;
+  background-color: #F6F5F3;
 }
 .logo {
-  color: #fff
+  color: #fff;
+  text-align: center;
 }
 .logo {
-  background-color: #516166;
+  background-color: #00ABB3;
   padding: 10px;
 }
 .logo h2 {
   margin-top: 0;
-  padding-top: 15px;
+  padding-top: 5px;
   font-weight: normal;
+}
+.logo h1 {
+  margin: 10px 0 0 0;
+}
+.logo h1:first-letter {
+  color: #ff0000;
 }
 .logo h4 {
   font-weight: normal;
@@ -26,52 +37,95 @@
   font-size: 135%;
 }
 .main-menu__item a {
-  color: #ccc;
+  color: #88888B;
   margin-top: 7px;
+  -webkit-transition: background ease 0.3s;
+  -moz-transition: background ease 0.3s;
+  -o-transition: background ease 0.3s;
+  transition: background ease 0.3s;
 }
 .main-menu__item a:hover {
-  background-color: rgba(255,255,255,0.1);
+  background-color: #E9E8E6;
 }
 .main-menu__item.active a {
-  color: #fff
+  color: #000;
 }
 
 
 
 .content {
   padding: 25px 35px;
-  background-color: #F0F0F5;
-  color: #202F33;
+  background-color: #fff;
+  color: #000;
+}
+.content__heading h2 {
+  font-size: 2.5em;
 }
 
-.content__heading {
-  text-shadow: none;
-}
 .content__p {
-  font-size: 130%
+  font-size: 1.4em;
 }
 
 .student__photo {
   width: 100%;
 }
 .student__details {
-  background-color: #F0F0F5;
+  background-color: #fff;
   z-index: 100;
+  font-size: 140%;
 }
-
 .students__list {
   margin-top: 45px;
   margin-left: -25px;
 }
-
 .students__list__item {
   list-style: none;
 }
-
-.student__details {
-  font-size: 120%;
+.student__name {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.student__name:first-letter {
+  color: #ff0000;
 }
 
+.student__links {
+  margin-bottom: 25px;
+}
+.student__details__button {
+  margin-bottom: 15px;
+}
+
+/*
+  – ng-hide-add --- перед анимацией скрытия объекта
+  – ng-hide-add-active --- во время анимации скрытия объекта
+  – ng-hide-remove --- перед анимацией показа объекта
+  – ng-hide-remove-active --- во время анимации показа объекта
+*/
+.student__about.ng-enter,  
+.student__about.ng-leave {
+  -webkit-transition:all ease 0.3s;
+  -moz-transition:all ease 0.3s;
+  -o-transition:all ease 0.3s;
+  transition:all ease 0.3s;
+  display:block!important;
+}
+
+
+.student__about.ng-enter,
+.student__about.ng-leave.ng-leave-active
+{
+  height: 0px;
+  line-height: 0.8em;
+  opacity: 0;
+}
+
+.student__about.ng-leave,
+.student__about.ng-enter.ng-enter-active {
+  height: auto;
+  line-height: 1.5em;
+  opacity: 1;
+}
 
 
 
@@ -80,50 +134,41 @@
 div.tucked-corners {
   margin: 0px auto 64px auto;
   padding: 10px;
-  position: relative;
   width: 100%;
   background-color: #fff;
-  -webkit-box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
-     -moz-box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
-          box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+  box-shadow: 0 1px 5px #aaa;
 }
 span.tucked-corners {
   margin-top: -85px;
   display: block;
   position: absolute;
   width: 85%;
-  -webkit-box-shadow: inset 0 0 10px hsla(0,0%,0%,.25);
-     -moz-box-shadow: inset 0 0 10px hsla(0,0%,0%,.25);
-          box-shadow: inset 0 0 10px hsla(0,0%,0%,.25);
+  box-shadow: inset 0 0 10px #999;
 }
 /* Top Corner Effect */
 .top-corners:after,
 .top-corners:before {
-  background-color: #F0F0F5;
+  background-color: #fff;
   content: '';
   height: 50px;
   position: absolute;
   top: -25px;
   width: 100px;
   z-index: 20;
-  -webkit-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
-     -moz-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
-          box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
+  box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
 }
 .top-corners:after {
-  left: -45px;
+  left: -9%;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg)
           transform: rotate(-45deg);
 }
 .top-corners:before {
-  right: -45px;
+  right: -9%;
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg)
           transform: rotate(45deg);
 }
 
@@ -131,22 +176,19 @@ span.tucked-corners {
 
 .bottom-corners:after,
 .bottom-corners:before {
-    background-color: #F0F0F5;
+    background-color: #fff;
     content: '';
     height: 50px;
     position: absolute;
     bottom: -35px;
     width: 100px;
-    -webkit-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
-       -moz-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
-            box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
+    box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
 }
 .bottom-corners:after {
     left: -45px;
     -webkit-transform: rotate(-135deg);
        -moz-transform: rotate(-135deg);
         -ms-transform: rotate(-135deg);
-         -o-transform: rotate(-135deg);
             transform: rotate(-135deg);
 }
 .bottom-corners:before {
@@ -154,7 +196,6 @@ span.tucked-corners {
     -webkit-transform: rotate(135deg);
        -moz-transform: rotate(135deg);
         -ms-transform: rotate(135deg);
-         -o-transform: rotate(135deg);
             transform: rotate(135deg);
 }
 

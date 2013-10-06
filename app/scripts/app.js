@@ -2,6 +2,7 @@
 
 var app = angular.module('shriExam1App',
                           ['ngRoute',
+                           'ngAnimate',
                            'shriExam1App.service']);
 
 app.config(function ($routeProvider, $locationProvider) {

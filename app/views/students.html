@@ -1,22 +1,29 @@
 <h1 class="content__heading">Ученики</h1>
 
 <ul class="students__list">
-  <li ng-repeat="s in students" class="row students__list__item">
+  <li ng-repeat="s in students | orderBy:'last_name'" class="row students__list__item">
     <div class="col-md-4">
       <div class="tucked-corners top-corners">
-        <img src="{{ s.link_photo }}" class="student__photo">
+        <img ng-if="s.link_photo" ng-src="{{ s.link_photo }}" class="student__photo ng-cloak">
       </div>
       <span class="tucked-corners bottom-corners"></span>
     </div>
     <div class="col-md-8 student__details">
-      {{ s.first_name }} {{ s.last_name }}
-      Город: {{ s.city }}
-      <!-- Описание: {{ s.about }} -->
-      
-      <!-- <a href="{{ link_facebook }}">Facebook</a>
-      <a href="{{ link_vk }}">VK</a>
-      <a href="{{ link_gihub }}">github</a>
-      <a href="{{ link_yaru }}">ya.ru</a> -->
+      <div class="student__name">{{ s.first_name }} {{ s.last_name }}</div>
+      <div class="student__links">
+        <a ng-if="s.link_yaru" href="{{ s.link_yaru }}" title="Профиль в ya.ru" alt="ya.ru"><img src="/img/icons/yandex.png" title="Профиль в ya.ru"></a> 
+        <a ng-if="s.link_vk" href="{{ s.link_vk }}" title="Профиль в ВКонтакте" alt="Вконтакте"><img src="/img/icons/vkontakte.png" title="Профиль в ВКонтакте"></a>
+        <a ng-if="s.link_facebook" href="{{ s.link_facebook }}" title="Профиль в ВКонтакте" alt="Вконтакте"><img src="/img/icons/facebook.png" title="Профиль в FaceBook"></a>
+        <a ng-if="s.link_gihub" href="{{ s.link_gihub }}" title="Профиль в GitHub" alt="GitHub"><img src="/img/icons/github.png" title="Профиль в GitHub"></a>   
+      </div>
+      <button type="button" class="btn btn-info btn-lg student__details__button" ng-click="show_about = !show_about">
+        <span ng-show="show_about">Скрыть подробности</span>
+        <span ng-hide="show_about">Подробнее</span>
+      </button>
+      <div ng-if="show_about" class="student__about">
+        <div ng-if="s.city"><span class="text-muted">Город:</span> {{ s.city }}</div>
+        <div ng-if"s.about">{{ s.about }}</div>
+      </div>  
     </div>
   </li>
 </ul>
