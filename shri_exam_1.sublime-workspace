@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"s",
+				"students"
+			],
+			[
+				"studen",
+				"studentsService"
+			],
+			[
+				"data",
+				"dataFile"
+			],
+			[
+				"de",
+				"defered"
+			],
+			[
 				"fon",
 				"font-size"
 			],
@@ -14,18 +54,6 @@
 			[
 				"padd",
 				"padding-top"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"font-s",
@@ -216,10 +244,6 @@
 				"serviceId"
 			],
 			[
-				"border-r",
-				"border-right"
-			],
-			[
 				"ba",
 				"background-color"
 			],
@@ -246,10 +270,6 @@
 			[
 				"WSsQ",
 				"WSsQueueHttp"
-			],
-			[
-				"s",
-				"stop/0"
 			],
 			[
 				"an",
@@ -307,6 +327,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/students.html",
+			"settings":
+			{
+				"buffer_size": 1793,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.css",
+			"settings":
+			{
+				"buffer_size": 3935,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/lectors.js",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/data/lectors.json",
+			"settings":
+			{
+				"buffer_size": 18915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/lectors.html",
+			"settings":
+			{
+				"buffer_size": 595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/services/services.js",
+			"settings":
+			{
+				"buffer_size": 1459,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -593,23 +661,31 @@
 	},
 	"file_history":
 	[
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/index.html",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/Gruntfile.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.gitignore",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/main.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/bower.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/index.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/app.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/students.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/Gruntfile.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/services.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/main.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/main.css",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/students.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/dist/index.html",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/main.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/studentsService.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/variables.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.custom.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.jshintrc",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/spec/services/studentsService.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.slate.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootswatch.slate.less",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/navs.less",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/type.less",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.slate.less",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/students.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/bower.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/variables.slate.less",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/dist/index.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/package.json",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.jshintrc",
 		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/project-stub/desktop.bundles/index/index.bemjson.js",
 		"/Users/ddushkin/Desktop/natalia/simpsons/parallaxSimpsons.html",
@@ -634,7 +710,6 @@
 		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/part2.tex",
 		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/part3.tex",
 		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/conclusion.tex",
-		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/ddushkin/Dropbox/Studies/Dissertation/Dissertation text/title.tex",
 		"/private/var/folders/x8/6k6tl1x133318cgcrl0g91tw0000gp/T/fz3temp-1/index.html",
@@ -713,14 +788,7 @@
 		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/docs/readme",
 		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_web_face.erl",
 		"/Users/ddushkin/Library/Application Support/Sublime Text 2/Packages/Java/JavaC.sublime-build",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_db_tests.erl",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_app.erl",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/erlang_ws_tester.app.src",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/ol_server.erl",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_app_tests.erl",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_tester_test.erl"
+		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry"
 	],
 	"find":
 	{
@@ -746,6 +814,61 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lectors",
+			"\"",
+			"'",
+			"\"",
+			"link_photo",
+			"s.",
+			"s",
+			"_and_lectures",
+			"Students",
+			"students",
+			"Students",
+			"students",
+			"></a>",
+			"><",
+			"ng-show",
+			"line-height",
+			"height",
+			"ng-cloak",
+			"hide-",
+			"remove",
+			"add",
+			"all",
+			"0.5s",
+			"linear",
+			"linei",
+			"height",
+			"ng-remove",
+			"ng-",
+			"coffee",
+			"'coffee',",
+			"coffe",
+			"some-element",
+			"title=\"",
+			"/img/",
+			"href=\"",
+			"img",
+			"images",
+			"title=\"",
+			"}}\">",
+			"{{ ",
+			"F0F0F5",
+			"\n\n            ",
+			"-webkit-box-shadow",
+			"-moz-box-shadow",
+			"-o-transform",
+			"-webkit-transform: rotate(-45deg);\n     -moz-transform: rotate(-45deg);\n      -ms-transform: rotate(-45deg);\n       -o-transform: rotate(-45deg);",
+			"left: -50px;",
+			"\n.",
+			".top-corners",
+			"span",
+			"380",
+			"studentsService",
+			"Studentsservice",
+			"autopr",
+			"'autoprefixer',",
 			"concat",
 			"-item",
 			"radi",
@@ -818,62 +941,7 @@
 			"compute",
 			"Compute",
 			"}",
-			"{",
-			"lstlisting",
-			"Приложение 3.",
-			"Приложение 2.",
-			"0.5",
-			"0",
-			"0.7",
-			"Архит",
-			"cite",
-			"itemize",
-			"cite",
-			"href",
-			"засчет",
-			"\\cite",
-			"apih",
-			"раздел",
-			"лица",
-			"fig",
-			"textem",
-			"график",
-			"width=1.0",
-			"cite",
-			"n",
-			"конфиг",
-			"todo",
-			"2013",
-			"fig",
-			"система",
-			"Разработанная",
-			"процесса про",
-			"Диагр",
-			"ациоа",
-			"рациоа",
-			"рацио",
-			"рациоан",
-			"рациоан\\",
-			"рациоан",
-			"рацио",
-			"оанал",
-			"анал",
-			"оптимальной по предпочтениям",
-			"\\hline ",
-			"\\cline",
-			"прилож",
-			"основы",
-			"вас",
-			"ЛПР",
-			"tabular",
-			"15mm",
-			"класс",
-			"классы",
-			"\\item",
-			"Рисунок",
-			"рис.",
-			"right",
-			"center"
+			"{"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -904,8 +972,179 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/students.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/styles/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/controllers/lectors.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/data/lectors.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 897.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/lectors.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/services/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1459,
+								1459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -964,12 +1203,20 @@
 				"app/index.html"
 			],
 			[
-				"slate",
-				"app/bower_components/bootstrap/less/bootswatch.slate.less"
-			],
-			[
 				"app",
 				"app/scripts/app.js"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"studen",
+				"app/data/students.json"
+			],
+			[
+				"slate",
+				"app/bower_components/bootstrap/less/bootswatch.slate.less"
 			],
 			[
 				"index.bem",
