@@ -1,16 +1,26 @@
-<h1 class="content__heading">Лекторы &amp; лекции</h1>
+<!-- <h1 class="content__heading">Лекторы &amp; лекции</h1> -->
 
-<ul class="students__list">
-  <li ng-repeat="l in lectors | orderBy:'name'" class="row students__list__item">
+<div class="lectors__menu">
+  Показать лекции <a href="#!/lectors" class="lectors__menu__item lectors__menu__item__active">по лекторам</a>, <a href="#!/lectors/lectures" class="lectors__menu__item">по названию</a>.
+</div>
+
+<ul class="persons__list">
+  <li ng-repeat="l in lectors | orderBy:'name'" class="row persons__list__item">
     <div class="col-md-4">
       <div class="tucked-corners top-corners">
-        <img ng-if="l.photo_url" ng-src="{{ l.photo_url }}" class="student__photo" style="-webkit-transform: rotate({{ l.rotation_degree }}deg)">
+        <img ng-if="l.photo_url" ng-src="{{ l.photo_url }}" class="person__photo" style="-webkit-transform: rotate({{ l.rotation_degree }}deg)">
       </div>
       <span class="tucked-corners bottom-corners"></span>
     </div>
-    <div class="col-md-8 student__details">
-      <div class="student__name">{{ l.name }}</div>
-      
-    </div>
+    <div class="col-md-8 person__details">
+      <div class="person__name">{{ l.name }}</div>
+      <div class="person__about">{{ l.about }}</div>
+      Лекции:
+      <ul class="person__lectures">
+        <li ng-repeat="lecture in l.all_lectures | orderBy:'name'" class="person__lectures__item">
+          &ndash;&nbsp; <a href="{{ lecture.url }}" title='Посмотреть лекцию "{{ lecture.name }}"' class="person__lectures__item__url">{{ lecture.name }}</a><br>
+        </li>
+      </ul>
+    </div>  
   </li>
 </ul>

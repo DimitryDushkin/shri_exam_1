@@ -17,4 +17,6 @@ describe('Controller: LectorsCtrl', function () {
   }));
 
   
+
+  
 });

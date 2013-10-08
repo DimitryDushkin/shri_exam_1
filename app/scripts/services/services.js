@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * Возвращает случайный угол наклона в диапазоне [-3;3]
+ * Возвращает случайный угол наклона в диапазоне [-2;2]
  * @return {float} degree number
  */
 function getRotate() {
-  return (3 - 6*Math.random()).toFixed(2);
+  return (2 - 4*Math.random()).toFixed(2);
 }
 
 angular.module('shriExam1App.service', [])
@@ -46,11 +46,25 @@ angular.module('shriExam1App.service', [])
             console.log('Cannot get lectors\' data');
           })
           .then(function(response){
-            var items = response.data;
-            for (var k in items) {
-              items[k].rotation_degree = getRotate();
+            var lectors = response.data.lectors;
+            for (var k in lectors) {
+              lectors[k].rotation_degree = getRotate();
             }
-            return items;
+            return lectors;
+          });
+      },
+
+      /**
+       * Возвращает данные по лекциям
+       * @return {$q.defer().promise} Promise object with future data as js array
+       */
+      getLectures: function() {
+        return $http.get(this.dataFile)
+          .error(function() {
+            console.log('Cannot get lectures\' data');
+          })
+          .then(function(response){
+            return response.data.lectures;
           });
       }
     };

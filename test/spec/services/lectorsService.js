@@ -14,7 +14,11 @@ describe('Service: lectorsService', function () {
     $httpBackend = $injector.get('$httpBackend');
 
     $httpBackend.expectGET('data/lectors.json')
-          .respond([{name: 'Dima'}, {name: 'Natasha'}]);
+          .respond(
+            {
+             'lectors' : [{name: 'Dima'}, {name: 'Natasha'}],
+             'lectures': [1, 2]
+            });
 
   }));
 
@@ -24,6 +28,16 @@ describe('Service: lectorsService', function () {
   it('should fulfill lectors array', function () {
     var result;
     lectorsService.getLectors().then(function(data){
+      result = data;
+    });
+    
+    $httpBackend.flush();
+    expect(result.length).toBeGreaterThan(1);
+  });
+
+  it('should fulfill lectures array', function () {
+    var result;
+    lectorsService.getLectures().then(function(data){
       result = data;
     });
     

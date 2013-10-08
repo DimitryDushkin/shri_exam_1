@@ -1,26 +1,26 @@
 <h1 class="content__heading">Ученики</h1>
 
-<ul class="students__list">
-  <li ng-repeat="s in students | orderBy:'last_name'" class="row students__list__item">
+<ul class="persons__list">
+  <li ng-repeat="s in students | orderBy:'last_name'" class="row persons__list__item">
     <div class="col-md-4">
       <div class="tucked-corners top-corners">
-        <img ng-if="s.link_photo" ng-src="{{ s.link_photo }}" class="student__photo" style="-webkit-transform: rotate({{ s.rotation_degree }}deg)">
+        <img ng-if="s.link_photo" ng-src="{{ s.link_photo }}" class="person__photo" style="-webkit-transform: rotate({{ s.rotation_degree }}deg)">
       </div>
       <span class="tucked-corners bottom-corners"></span>
     </div>
-    <div class="col-md-8 student__details">
-      <div class="student__name">{{ s.first_name }} {{ s.last_name }}</div>
-      <div class="student__links">
+    <div class="col-md-8 person__details">
+      <div class="person__name">{{ s.first_name }} {{ s.last_name }}</div>
+      <div class="person__links">
         <a ng-if="s.link_yaru" href="{{ s.link_yaru }}" title="Профиль в ya.ru" alt="ya.ru"><img src="/img/icons/yandex.png" title="Профиль в ya.ru"></a> 
         <a ng-if="s.link_vk" href="{{ s.link_vk }}" title="Профиль в ВКонтакте" alt="Вконтакте"><img src="/img/icons/vkontakte.png" title="Профиль в ВКонтакте"></a>
         <a ng-if="s.link_facebook" href="{{ s.link_facebook }}" title="Профиль в ВКонтакте" alt="Вконтакте"><img src="/img/icons/facebook.png" title="Профиль в FaceBook"></a>
         <a ng-if="s.link_gihub" href="{{ s.link_gihub }}" title="Профиль в GitHub" alt="GitHub"><img src="/img/icons/github.png" title="Профиль в GitHub"></a>   
       </div>
-      <button type="button" class="btn btn-info btn-lg student__details__button" ng-click="show_about = !show_about">
+      <button type="button" class="btn btn-info btn-lg person__details__button" ng-click="show_about = !show_about">
         <span ng-show="show_about">Скрыть подробности</span>
         <span ng-hide="show_about">Подробнее</span>
       </button>
-      <div ng-if="show_about" class="student__about">
+      <div ng-if="show_about" class="person__about">
         <div ng-if="s.city"><span class="text-muted">Город:</span> {{ s.city }}</div>
         <div ng-if="s.about" style="white-space: pre-line">{{ s.about }}</div>
       </div>  
