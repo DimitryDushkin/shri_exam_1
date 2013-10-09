@@ -16,9 +16,9 @@
       <div class="person__name">{{ l.name }}</div>
       <div class="person__about">{{ l.about }}</div>
       Лекции:
-      <ul class="person__lectures">
-        <li ng-repeat="lecture in l.all_lectures | orderBy:'name'" class="person__lectures__item">
-          &ndash;&nbsp; <a href="{{ lecture.url }}" title='Посмотреть лекцию "{{ lecture.name }}"' class="person__lectures__item__url">{{ lecture.name }}</a><br>
+      <ul class="lector__lectures">
+        <li ng-repeat="lecture in l.all_lectures | orderBy:'name'" class="lector__lectures__item">
+          &mdash;&nbsp; <a href="{{ lecture.url }}" title='Посмотреть лекцию "{{ lecture.name }}"' class="lector__lectures__item__url">{{ lecture.name }}</a><br>
         </li>
       </ul>
     </div>  

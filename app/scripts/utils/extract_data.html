@@ -1,0 +1,25 @@
+<div id="tmp">
+  
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    $.getJSON('data/lectors.json', function(data){
+      var lectors = data.lectors;
+      var lectures = data.lectures;
+      $.each(lectors, function(i, lector){
+        $.each(lector.all_lectures, function(i, lecture){
+          $.each(lectures, function(i, l){
+            if ($.trim(l.name).toLowerCase() == $.trim(lecture.name).toLowerCase()) {
+              lecture.video_url = l.video_url;
+              lecture.slides_url = l.slides_url;
+            }
+          });
+        });
+      });
+
+      $('#tmp').append(JSON.stringify(lectors));
+
+    })
+  })
+</script>

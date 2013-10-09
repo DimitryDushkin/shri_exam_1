@@ -34,7 +34,7 @@ angular.module('shriExam1App.service', [])
   })
   .factory('lectorsService', function ($http) {
     return {
-      dataFile: 'data/lectors.json',
+      dataFile: 'data/lectors_and_lectures.json',
 
       /**
        * Функция возвращает данные по всем лекторам
@@ -46,25 +46,11 @@ angular.module('shriExam1App.service', [])
             console.log('Cannot get lectors\' data');
           })
           .then(function(response){
-            var lectors = response.data.lectors;
+            var lectors = response.data;
             for (var k in lectors) {
               lectors[k].rotation_degree = getRotate();
             }
             return lectors;
-          });
-      },
-
-      /**
-       * Возвращает данные по лекциям
-       * @return {$q.defer().promise} Promise object with future data as js array
-       */
-      getLectures: function() {
-        return $http.get(this.dataFile)
-          .error(function() {
-            console.log('Cannot get lectures\' data');
-          })
-          .then(function(response){
-            return response.data.lectures;
           });
       }
     };

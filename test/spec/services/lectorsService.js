@@ -13,31 +13,16 @@ describe('Service: lectorsService', function () {
     lectorsService = $injector.get('lectorsService');
     $httpBackend = $injector.get('$httpBackend');
 
-    $httpBackend.expectGET('data/lectors.json')
-          .respond(
-            {
-             'lectors' : [{name: 'Dima'}, {name: 'Natasha'}],
-             'lectures': [1, 2]
-            });
+    $httpBackend.expectGET('data/lectors_and_lectures.json')
+          .respond([ {name: 'Dima'}, {name: 'Natasha'} ]);
 
   }));
-
 
 
 
   it('should fulfill lectors array', function () {
     var result;
     lectorsService.getLectors().then(function(data){
-      result = data;
-    });
-    
-    $httpBackend.flush();
-    expect(result.length).toBeGreaterThan(1);
-  });
-
-  it('should fulfill lectures array', function () {
-    var result;
-    lectorsService.getLectures().then(function(data){
       result = data;
     });
     
