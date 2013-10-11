@@ -93,7 +93,6 @@ a {
   width: 100%;
 }
 .person__details {
-  background-color: #fff;
   z-index: 100;
   font-size: 140%;
 }
@@ -126,78 +125,75 @@ a {
 
 
 /* ================= Persons' photos frame effect ================ */
+.person__photo__container {
+  float: left;
+  z-index: 1000;
+  width: 100%;
+}
+
 .person__photo {
   padding: 10px;
   background-color: #fff;
   box-shadow: 0 1px 5px #aaa;
   max-width: 300px;
-}
-div.tucked-corners {
-  margin: 0px auto 64px auto;
-  width: 100%;
-}
-span.tucked-corners {
-  margin-top: -85px;
-  display: block;
-  position: absolute;
-  width: 85%;
-  box-shadow: inset 0 0 10px #999;
+  margin-top: -20px;
 }
 
-/* Top Corner Effect */
-.top-corners:after,
-.top-corners:before {
+.person__photo__frame {
+  line-height: 0;
+  width: 30%;
+  height: 40px;
   background-color: #fff;
-  content: '';
-  height: 50px;
-  position: absolute;
-  top: -25px;
-  width: 100px;
-  z-index: 20;
   box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.85);
 }
-.top-corners:after {
-  left: -9%;
+.person__photo__left__top__frame {
+  float: left;
+  margin: 0 0 0 -38px;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
+  position: relative;
+  z-index: 100;
 }
-.top-corners:before {
-  right: -9%;
+
+.person__photo__rigth__top__frame {
+  float: right;
+  margin: 0 -38px 0 0;
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
+  position: relative;
+  z-index: 100;
 }
 
-/* Bottom Corner Effect (using the span) */
-
-.bottom-corners:after,
-.bottom-corners:before {
-    background-color: #fff;
-    content: '';
-    height: 50px;
-    position: absolute;
-    bottom: -35px;
-    width: 100px;
-    box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.85);
-}
-.bottom-corners:after {
-    left: -45px;
-    -webkit-transform: rotate(-135deg);
-       -moz-transform: rotate(-135deg);
-        -ms-transform: rotate(-135deg);
-            transform: rotate(-135deg);
-}
-.bottom-corners:before {
-    right: -62px;
-    -webkit-transform: rotate(135deg);
-       -moz-transform: rotate(135deg);
-        -ms-transform: rotate(135deg);
-            transform: rotate(135deg);
+.person__photo__left__bottom__frame {
+  float: left;
+  margin: -22px 0 0 -38px;
+  -webkit-transform: rotate(225deg);
+     -moz-transform: rotate(225deg);
+      -ms-transform: rotate(225deg);
+          transform: rotate(225deg);
 }
 
+.person__photo__rigth__bottom__frame {
+  float: right;
+  margin: -22px -38px 0 0;
+  -webkit-transform: rotate(-225deg);
+     -moz-transform: rotate(-225deg);
+      -ms-transform: rotate(-225deg);
+          transform: rotate(-225deg);
+}
+
+@media (max-width: 768px) {
+  .person__photo__frame {
+    display: none;
+  }
+  .person__photo__container {
+    margin-top: 30px;
+  }
+}
 /* ================= /Persons' photos frame effect ================ */
 
 /* =================== For students ================= */

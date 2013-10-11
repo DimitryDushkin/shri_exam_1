@@ -12,13 +12,16 @@
 <!-- Сортировка по лекторам -->
 <ul class="persons__list" ng-show="path == '/lectors'">
   <li ng-repeat="l in lectors | orderBy:'name'" class="row persons__list__item">
-    <div class="col-md-4">
-      <div class="tucked-corners top-corners">
+    <div class="col-md-4 col-sm-4">
+      <div class="person__photo__container">
+        <div class="person__photo__frame person__photo__left__top__frame"> </div>
+        <div class="person__photo__frame person__photo__rigth__top__frame"> </div>
         <img ng-if="l.photo_url" ng-src="{{ l.photo_url }}" class="person__photo" style="-webkit-transform: rotate({{ l.rotation_degree }}deg)">
+        <div class="person__photo__frame person__photo__left__bottom__frame"> </div>
+        <div class="person__photo__frame person__photo__rigth__bottom__frame"> </div>
       </div>
-      <span class="tucked-corners bottom-corners"></span>
     </div>
-    <div class="col-md-8 person__details">
+    <div class="col-md-8 col-sm-8 person__details">
       <div class="person__name">{{ l.name }}</div>
       <div class="person__about">{{ l.about }}</div>
       Лекции:

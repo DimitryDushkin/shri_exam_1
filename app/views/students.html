@@ -2,13 +2,16 @@
 
 <ul class="persons__list">
   <li ng-repeat="s in students | orderBy:'last_name'" class="row persons__list__item">
-    <div class="col-md-4">
-      <div class="tucked-corners top-corners">
+    <div class="col-md-4 col-sm-4">
+      <div class="person__photo__container">
+        <div class="person__photo__frame person__photo__left__top__frame"> </div>
+        <div class="person__photo__frame person__photo__rigth__top__frame"> </div>
         <img ng-if="s.link_photo" ng-src="{{ s.link_photo }}" class="person__photo" style="-webkit-transform: rotate({{ s.rotation_degree }}deg)">
+        <div class="person__photo__frame person__photo__left__bottom__frame"> </div>
+        <div class="person__photo__frame person__photo__rigth__bottom__frame"> </div>
       </div>
-      <span class="tucked-corners bottom-corners"></span>
     </div>
-    <div class="col-md-8 person__details">
+    <div class="col-md-8 col-sm-8 person__details">
       <div class="person__name">{{ s.first_name }} {{ s.last_name }}</div>
       <div class="person__links">
         <a ng-if="s.link_yaru" href="{{ s.link_yaru }}" title="Профиль в ya.ru" alt="ya.ru"><img src="/img/icons/yandex.png" title="Профиль в ya.ru"></a> 
