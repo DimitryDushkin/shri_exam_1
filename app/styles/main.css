@@ -103,6 +103,7 @@ a {
 }
 .persons__list__item {
   list-style: none;
+  margin-bottom: 20px;
 }
 .person__name {
   font-size: 2em;
