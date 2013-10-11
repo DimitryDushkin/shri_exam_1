@@ -3,6 +3,7 @@
 var app = angular.module('shriExam1App',
                           ['ngRoute',
                            'ngAnimate',
+                           'ngSanitize',
                            'shriExam1App.service']);
 
 app.config(function ($routeProvider, $locationProvider) {
@@ -16,6 +17,10 @@ app.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'views/lectors.html',
         controller: 'LectorsCtrl'
       })
+      .when('/lectures', {
+        templateUrl: 'views/lectors.html',
+        controller: 'LectorsCtrl'
+      })
       .when('/students', {
         templateUrl: 'views/students.html',
         controller: 'StudentsCtrl'
@@ -23,6 +28,7 @@ app.config(function ($routeProvider, $locationProvider) {
       .otherwise({
         redirectTo: '/'
       });
+
     $locationProvider.hashPrefix('!');
   
   })
@@ -37,4 +43,9 @@ app.config(function ($routeProvider, $locationProvider) {
       return viewLocation === $location.path();
     };
 
+  })
+  .filter('firstLetterRed', function() {
+    return function(input) {
+      return input.replace(/(.)/, '<span class="red-letter">$1</span>');
+    };
   });

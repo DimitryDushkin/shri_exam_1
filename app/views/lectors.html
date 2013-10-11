@@ -1,10 +1,16 @@
 <!-- <h1 class="content__heading">Лекторы &amp; лекции</h1> -->
 
+
+<!-- @TODO: add classes by ng-class -->
 <div class="lectors__menu">
-  Показать лекции <a href="#!/lectors" class="lectors__menu__item lectors__menu__item__active">по лекторам</a>, <a href="#!/lectors/lectures" class="lectors__menu__item">по названию</a>.
+  Показать лекции 
+  <a href="#!/lectors" ng-class="{'lectors__menu__item__active': path == '/lectors'}" class="lectors__menu__item">по лекторам</a>, 
+  <a href="#!/lectures" ng-class="{'lectors__menu__item__active': path == '/lectures'}" class="lectors__menu__item">по названию</a>.
 </div>
 
-<ul class="persons__list">
+
+<!-- Сортировка по лекторам -->
+<ul class="persons__list" ng-show="path == '/lectors'">
   <li ng-repeat="l in lectors | orderBy:'name'" class="row persons__list__item">
     <div class="col-md-4">
       <div class="tucked-corners top-corners">
@@ -24,3 +30,27 @@
     </div>  
   </li>
 </ul>
+<!-- /Сортировка по лекторам -->
+
+
+
+<!-- Сортировка по лекциям -->
+<div ng-show="path == '/lectures'">
+  <ul class="lectures__list">
+    <li ng-repeat="lecture in lectures | orderBy:'name'" class="lectures__list__item">
+      <div class="lecture__name">
+        <a href="{{ lecture.url }}" title="Посмотреть лекцию на сайте Яндекса" target="_blank">{{ lecture.name }} <img src="img/icons/external_link.png" title="Ссылка на другой сайт" width="16" height="16" class="lecture__external__link"></a>
+      </div>
+      <div class="lecture__details">
+       <span class="text-muted">Ведёт</span> <span ng-bind-html='lecture.lector.name | firstLetterRed'></span>
+      </div>
+      <div class="lecture__buttons">
+          <a ng-show="lecture.video_url" href="{{ lecture.video_url }}" title="Видео лекция"><img src="img/icons/movie.png" width="48" height="48" alt="Видео-лекция"></a>
+          <a ng-show="lecture.slides_url" href="{{ lecture.slides_url }}" title="Скачать презентацию"><img src="img/icons/presentation.png" alt="Презентация" width="48" height="48"></a>
+       </div>
+    </li>
+  </ul>
+</div>
+
+<!-- /Сортировка по лекциям -->
+

@@ -7,15 +7,35 @@ body {
   background-color: #F6F5F3;
 }
 
+a {
+  -webkit-transition: color ease 0.3s;
+  -moz-transition: color ease 0.3s;
+  -o-transition: color ease 0.3s;
+  transition: color ease 0.3s;
+}
+
+
 /* ==================== Header =================== */
 
 .logo {
   color: #fff;
   text-align: center;
-}
-.logo {
+  border: 1px dashed #fff;
+  border-top: none;
+  outline: 6px solid #00ABB3;
   background-color: #00ABB3;
   padding: 10px;
+  box-shadow: 0 5px 20px #555;
+  cursor: normal;
+  -webkit-transition: box-shadow ease 0.3s;
+  -moz-transition: box-shadow ease 0.3s;
+  -o-transition: box-shadow ease 0.3s;
+  transition: box-shadow ease 0.3s;
+
+}
+
+.logo:hover {
+ box-shadow: 0 3px 10px #111; 
 }
 .logo h2 {
   margin-top: 0;
@@ -35,11 +55,12 @@ body {
   text-transform: uppercase;
 }
 .main-menu__item {
-  font-size: 135%;
+  font-size: 1.6em;
 }
 .main-menu__item a {
   color: #88888B;
-  margin-top: 7px;
+  margin-top: 10px;
+
   -webkit-transition: background ease 0.3s;
   -moz-transition: background ease 0.3s;
   -o-transition: background ease 0.3s;
@@ -109,6 +130,7 @@ body {
   padding: 10px;
   background-color: #fff;
   box-shadow: 0 1px 5px #aaa;
+  max-width: 300px;
 }
 div.tucked-corners {
   margin: 0px auto 64px auto;
@@ -215,11 +237,13 @@ span.tucked-corners {
 /* =================== For lectors ================= */
 .lectors__menu {
   font-size: 2.5em;
+  margin-bottom: 15px;
 }
 
 .lectors__menu__item {
   border-bottom: 3px dashed #428bca;
   line-height: 2em;
+  white-space: nowrap;
 }
 
 .lectors__menu__item:hover {
@@ -245,4 +269,35 @@ span.tucked-corners {
   list-style: none;
   padding-left: 26px;
   text-indent: -22px;
+}
+
+
+
+.lecture__external__link {
+  margin-bottom: 4px;
+}
+
+.lectures__list {
+  padding-left: 0
+}
+
+.lectures__list__item {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.lecture__name {
+  font-size: 2em;
+  margin-bottom: 6px;
+}
+
+.lecture__details {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+
+
+.red-letter{
+  color: red;
 }

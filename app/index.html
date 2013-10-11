@@ -34,7 +34,7 @@
           <!-- Меню -->
           <ul class="nav nav-stacked main-menu">
             <li class="main-menu__item" ng-class="{active: isActive('/')}"><a href="#!/">О ШРИ</a></li>
-            <li class="main-menu__item" ng-class="{active: isActive('/lectors')}"><a href="#!/lectors">Лекторы &amp; лекции</a></li>
+            <li class="main-menu__item" ng-class="{active: isActive('/lectors') || isActive('/lectures') }"><a href="#!/lectors">Лекторы &amp; лекции</a></li>
             <li class="main-menu__item" ng-class="{active: isActive('/students')}"><a href="#!/students">Ученики</a></li>
           </ul>
           <!-- /Меню -->
@@ -59,6 +59,7 @@
       <script src="bower_components/angular/angular.js"></script>
       <script src="bower_components/angular-route/angular-route.js"></script>
       <script src="bower_components/angular-animate/angular-animate.js"></script>
+      <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
       <!-- endbower -->
     <!-- endbuild -->
 
