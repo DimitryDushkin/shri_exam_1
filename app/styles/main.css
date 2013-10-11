@@ -138,6 +138,7 @@ a {
 .persons__list {
   margin-top: 45px;
   margin-left: -25px;
+  clear: both;
 }
 .persons__list__item {
   list-style: none;
@@ -251,6 +252,16 @@ a {
   height: auto;
   line-height: 1.5em;
   opacity: 1;
+}
+
+.students__statistics__container {
+  margin-top: 25px;
+}
+
+.students__statistics__sex, .students__statistics__cities {
+  float: left;
+  text-align: center;
+  padding-bottom: 25px;
 }
 /* =================== For lectors ================= */
  .lectors__menu {
