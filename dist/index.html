@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="fragment" content="!">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Экзаменационное задание для Яндекс ШРИ 2013</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/564dde67.main.css">
+
+</head>
+  <body ng-app="shriExam1App">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">Вы используете <strong>устаревший</strong> просматриватель интернета ;( Пожалуйста, <a href="http://browsehappy.com/">обновите программу</a>.</p>
+    <![endif]-->
+
+
+    <!-- Add your site or application content here -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="logo__container">
+            <div class="logo">
+              <h1>Яндекс</h1>
+              <h2>ШРИ 2013</h2>
+              <h4>Выпускной альбом</h4>
+            </div>
+          </div>
+
+          <!-- Меню -->
+          <ul class="nav nav-stacked main-menu">
+            <li class="main-menu__item" ng-class="{active: isActive('/')}"><a href="#!/">О ШРИ</a></li>
+            <li class="main-menu__item" ng-class="{active: isActive('/lectors') || isActive('/lectures') }"><a href="#!/lectors">Лекторы &amp; лекции</a></li>
+            <li class="main-menu__item" ng-class="{active: isActive('/students')}"><a href="#!/students">Ученики</a></li>
+          </ul>
+          <!-- /Меню -->
+        </div>
+        <div class="col-md-offset-1 col-md-9 content__container">
+          <div class="content" ng-view=""></div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    <!--[if lt IE 9]>
+      <script src="bower_components/es5-shim/es5-shim.js"></script>
+      <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <script src="scripts/f6a9be5d.libs.min.js"></script>
+
+    <script src="scripts/4f3efba6.app.min.js"></script>
+
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin,cyrillic);
+    </style>
+
+</body>
+</html>

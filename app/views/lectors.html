@@ -27,7 +27,7 @@
       Лекции:
       <ul class="lector__lectures">
         <li ng-repeat="lecture in l.all_lectures | orderBy:'name'" class="lector__lectures__item">
-          &mdash;&nbsp; <a href="{{ lecture.url }}" title='Посмотреть лекцию "{{ lecture.name }}"' class="lector__lectures__item__url">{{ lecture.name }}</a><br>
+          &mdash;&nbsp; <a href="{{ lecture.url }}" title='Посмотреть лекцию "{{ lecture.name }}"' class="lector__lectures__item__url" target="_blank">{{ lecture.name }}</a><br>
         </li>
       </ul>
     </div>  
@@ -48,8 +48,8 @@
        <span class="text-muted">Ведёт</span> <span ng-bind-html='lecture.lector.name | firstLetterRed'></span>
       </div>
       <div class="lecture__buttons">
-          <a ng-show="lecture.video_url" href="{{ lecture.video_url }}" title="Видео лекция"><img src="img/icons/movie.png" width="48" height="48" alt="Видео-лекция"></a>
-          <a ng-show="lecture.slides_url" href="{{ lecture.slides_url }}" title="Скачать презентацию"><img src="img/icons/presentation.png" alt="Презентация" width="48" height="48"></a>
+          <a ng-show="lecture.video_url" href="{{ lecture.video_url }}" title="Видео лекция" target="_blank"><img src="img/icons/movie.png" width="48" height="48" alt="Видео-лекция"></a>
+          <a ng-show="lecture.slides_url" href="{{ lecture.slides_url }}" title="Скачать презентацию" target="_blank"><img src="img/icons/presentation.png" alt="Презентация" width="48" height="48"></a>
        </div>
     </li>
   </ul>

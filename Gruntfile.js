@@ -31,7 +31,7 @@ module.exports = function (grunt) {
     watch: {
       styles: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
-        tasks: ['copy:styles']//, 'autoprefixer']
+        tasks: ['copy:styles', 'autoprefixer']
       },
       livereload: {
         options: {
@@ -46,7 +46,9 @@ module.exports = function (grunt) {
       }
     },
     autoprefixer: {
-      options: ['last 1 version'],
+      options: {
+        browsers: ['last 2 version', 'android 4', 'ie >= 8', 'ff >= 20']
+      },
       dist: {
         files: [{
           expand: true,
@@ -60,7 +62,7 @@ module.exports = function (grunt) {
       options: {
         port: 9000,
         // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost'
+        hostname: '0.0.0.0'
       },
       livereload: {
         options: {
@@ -131,7 +133,7 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/scripts/{,*/}*.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            //'<%= yeoman.dist %>/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= yeoman.dist %>/styles/fonts/*'
           ]
         }
@@ -148,26 +150,6 @@ module.exports = function (grunt) {
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
       options: {
         dirs: ['<%= yeoman.dist %>']
-      }
-    },
-    imagemin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.app %>/img',
-          src: '{,*/}*.{png,jpg,jpeg}',
-          dest: '<%= yeoman.dist %>/img'
-        }]
-      }
-    },
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.app %>/img',
-          src: '{,*/}*.svg',
-          dest: '<%= yeoman.dist %>/img'
-        }]
       }
     },
     cssmin: {
@@ -216,7 +198,7 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '.htaccess',
             'bower_components/**/*',
-            'img/{,*/}*.{gif,webp}',
+            'img/**/*',
             'styles/fonts/*',
             'data/*'
           ]
@@ -245,8 +227,8 @@ module.exports = function (grunt) {
       ],
       dist: [
         'copy:styles',
-        'imagemin',
-        'svgmin',
+        // 'imagemin',
+        // 'svgmin',
         'htmlmin'
       ]
     },
@@ -254,11 +236,6 @@ module.exports = function (grunt) {
       unit: {
         configFile: 'karma.conf.js',
         singleRun: true
-      }
-    },
-    cdnify: {
-      dist: {
-        html: ['<%= yeoman.dist %>/*.html']
       }
     },
     ngmin: {
@@ -303,7 +280,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-     // 'autoprefixer',
+      'autoprefixer',
       'connect:livereload',
       'open',
       'watch'
@@ -313,7 +290,7 @@ module.exports = function (grunt) {
   grunt.registerTask('test', [
     'clean:server',
     'concurrent:test',
-    //'autoprefixer',
+    'autoprefixer',
     'connect:test',
     'karma'
   ]);
@@ -322,10 +299,10 @@ module.exports = function (grunt) {
     'clean:dist',
     'useminPrepare',
     'concurrent:dist',
-    //'autoprefixer',
+    'autoprefixer',
     'concat',
     'copy:dist',
-    'cdnify',
+    //'cdnify',
     'ngmin',
     'cssmin',
     'uglify',
@@ -338,4 +315,6 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+
 };

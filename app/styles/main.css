@@ -1,50 +1,48 @@
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-  display: none !important;
-}
-
 body {
-  font-family: 'Istok Web', Helvetica, Arial, sans-serif;
+  font-family:'Istok Web', Helvetica, Arial, sans-serif;
   background-color: #F6F5F3;
 }
-
 a {
   -webkit-transition: color ease 0.3s;
-  -moz-transition: color ease 0.3s;
-  -o-transition: color ease 0.3s;
   transition: color ease 0.3s;
 }
-
-
 /* ==================== Header =================== */
-
-.logo {
+ .logo__container {
+  cursor: normal;
+  border: 6px solid #00ABB3;
+  border-top: none;
+  box-shadow: 0 5px 20px #555;
+  
+  -webkit-transition: box-shadow ease 0.3s;
+  transition: box-shadow ease 0.3s;
+ }
+ .logo__container:hover {
+  box-shadow: 0 3px 10px #111;
+}
+ .logo {
   color: #fff;
   text-align: center;
   border: 1px dashed #fff;
   border-top: none;
-  outline: 6px solid #00ABB3;
   background-color: #00ABB3;
   padding: 10px;
-  box-shadow: 0 5px 20px #555;
-  cursor: normal;
-  -webkit-transition: box-shadow ease 0.3s;
-  -moz-transition: box-shadow ease 0.3s;
-  -o-transition: box-shadow ease 0.3s;
-  transition: box-shadow ease 0.3s;
-
 }
 
-.logo:hover {
- box-shadow: 0 3px 10px #111; 
+/* Для Windows устройств с увеличинным шрифтом в свойствах экрана */
+@media (resolution: 120dpi) {
+  body {
+    font-size: 10px;
+  }
+}
+
+.logo h1 {
+  margin: 10px 0 0 0;
+  font-size: 3.1em;
 }
 .logo h2 {
   margin-top: 0;
   padding-top: 5px;
   font-weight: bold;
-}
-.logo h1 {
-  margin: 10px 0 0 0;
-  font-size: 3.1em;
 }
 .logo h4 {
   font-weight: normal;
@@ -60,7 +58,6 @@ a {
 .main-menu__item a {
   color: #88888B;
   margin-top: 10px;
-
   -webkit-transition: background ease 0.3s;
   -moz-transition: background ease 0.3s;
   -o-transition: background ease 0.3s;
@@ -72,32 +69,73 @@ a {
 .main-menu__item.active a {
   color: #000;
 }
-
 /* ==================== Content =================== */
-.content {
-  padding: 25px 35px;
+ .content__container {
   background-color: #fff;
+  padding: 25px 30px;
+  min-height: 1000px;
+}
+.content {
   color: #000;
 }
 .content__heading h2 {
   font-size: 2.5em;
 }
-
 .content__p {
   font-size: 1.4em;
 }
+.content.ng-enter {
+ animation: enter 0.6s ease;
+ position: relative;
+} 
+.content.ng-leave {
+  opacity: 0;
+  /* Можно раскомментровать, будет анимация по-богаче, но по-глючнее*/
+/*  animation: leave 0.8s ease;
+  position: absolute;
+  top: 25px;
+  left: 30px;*/
+}
+/* 
+  Специально до 50% всё еще невидим элемент, чтобы дать время
+  шаблонизатору всё сделать 
+ */
+@keyframes enter {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    left: 20px;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
 
+/*@keyframes leave {
+  from {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+    left: 80px;
+  }
+  to {
+    opacity: 0;  
+  }
+}*/
 
 /* =================== Common for lectors and students ========== */
-.person__photo {
+ .person__photo {
   width: 100%;
 }
 .person__details {
   z-index: 100;
   font-size: 140%;
 }
-
-.persons__list  {
+.persons__list {
   margin-top: 45px;
   margin-left: -25px;
 }
@@ -112,26 +150,21 @@ a {
 .person__name:first-letter {
   color: #ff0000;
 }
-
 .person__links {
   margin-bottom: 25px;
 }
 .person__details__button {
   margin-bottom: 15px;
 }
-
 .person__about {
   margin-bottom: 15px;
 }
-
-
 /* ================= Persons' photos frame effect ================ */
-.person__photo__container {
+ .person__photo__container {
   float: left;
   z-index: 1000;
   width: 100%;
 }
-
 .person__photo {
   padding: 10px;
   background-color: #fff;
@@ -139,54 +172,49 @@ a {
   max-width: 300px;
   margin-top: -20px;
 }
-
 .person__photo__frame {
   line-height: 0;
   width: 30%;
   height: 40px;
   background-color: #fff;
-  box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.85);
+  box-shadow: 0 6px 9px -8px hsla(0, 0%, 0%, .85);
 }
 .person__photo__left__top__frame {
   float: left;
   margin: 0 0 0 -38px;
   -webkit-transform: rotate(-45deg);
-     -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   position: relative;
   z-index: 100;
 }
-
 .person__photo__rigth__top__frame {
   float: right;
   margin: 0 -38px 0 0;
   -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
   position: relative;
   z-index: 100;
 }
-
 .person__photo__left__bottom__frame {
   float: left;
   margin: -22px 0 0 -38px;
   -webkit-transform: rotate(225deg);
-     -moz-transform: rotate(225deg);
-      -ms-transform: rotate(225deg);
-          transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
 }
-
 .person__photo__rigth__bottom__frame {
   float: right;
   margin: -22px -38px 0 0;
   -webkit-transform: rotate(-225deg);
-     -moz-transform: rotate(-225deg);
-      -ms-transform: rotate(-225deg);
-          transform: rotate(-225deg);
+  -moz-transform: rotate(-225deg);
+  -ms-transform: rotate(-225deg);
+  transform: rotate(-225deg);
 }
-
 @media (max-width: 768px) {
   .person__photo__frame {
     display: none;
@@ -198,56 +226,46 @@ a {
 /* ================= /Persons' photos frame effect ================ */
 
 /* =================== For students ================= */
+
 /*
   – ng-hide-add --- перед анимацией скрытия объекта
   – ng-hide-add-active --- во время анимации скрытия объекта
   – ng-hide-remove --- перед анимацией показа объекта
   – ng-hide-remove-active --- во время анимации показа объекта
 */
-.person__about.ng-enter,  
-.person__about.ng-leave {
+ .person__about.ng-enter, .person__about.ng-leave {
   -webkit-transition:all ease 0.3s;
   -moz-transition:all ease 0.3s;
   -o-transition:all ease 0.3s;
   transition:all ease 0.3s;
   display:block!important;
 }
-
-
 .person__about.ng-enter,
-.person__about.ng-leave.ng-leave-active
-{
+.person__about.ng-leave.ng-leave-active {
   height: 0px;
   line-height: 0.8em;
   opacity: 0;
 }
-
-.person__about.ng-leave,
+.person__about.ng-leave, 
 .person__about.ng-enter.ng-enter-active {
   height: auto;
   line-height: 1.5em;
   opacity: 1;
 }
-
-
-
 /* =================== For lectors ================= */
-.lectors__menu {
+ .lectors__menu {
   font-size: 2.5em;
   margin-bottom: 15px;
 }
-
 .lectors__menu__item {
   border-bottom: 3px dashed #428bca;
   line-height: 2em;
   white-space: nowrap;
 }
-
 .lectors__menu__item:hover {
   text-decoration: none;
   border-bottom: 3px dashed #2a6496;
 }
-
 .lectors__menu__item__active {
   padding: 0px 10px;
   border: 3px solid #00ABB3;
@@ -257,44 +275,32 @@ a {
   border: 3px solid #00ABB3;
   color: #333;
 }
-
 .lector__lectures {
   padding-left: 0;
 }
-
 .lector__lectures__item {
   list-style: none;
   padding-left: 26px;
   text-indent: -22px;
 }
-
-
-
 .lecture__external__link {
   margin-bottom: 4px;
 }
-
 .lectures__list {
   padding-left: 0
 }
-
 .lectures__list__item {
   list-style: none;
   margin-bottom: 25px;
 }
-
 .lecture__name {
   font-size: 2em;
   margin-bottom: 6px;
 }
-
 .lecture__details {
   font-size: 1.3em;
   margin-bottom: 10px;
 }
-
-
-
-.red-letter{
+.red-letter {
   color: red;
 }

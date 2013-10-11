@@ -25,10 +25,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-          <div class="logo">
-            <h1>Яндекс</h1>
-            <h2>ШРИ 2013</h2>
-            <h4>Выпускной альбом</h4>
+          <div class="logo__container">
+            <div class="logo">
+              <h1>Яндекс</h1>
+              <h2>ШРИ 2013</h2>
+              <h4>Выпускной альбом</h4>
+            </div>
           </div>
 
           <!-- Меню -->
@@ -39,7 +41,9 @@
           </ul>
           <!-- /Меню -->
         </div>
-        <div class="col-md-offset-1 col-md-9 content" ng-view></div>
+        <div class="col-md-offset-1 col-md-9 content__container">
+          <div class="content" ng-view></div>
+        </div>
       </div>
 
 
@@ -54,8 +58,6 @@
 
     <!-- build:js scripts/libs.min.js -->
       <!-- bower:js -->
-      <script src="bower_components/jquery/jquery.js"></script>
-      <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
       <script src="bower_components/angular/angular.js"></script>
       <script src="bower_components/angular-route/angular-route.js"></script>
       <script src="bower_components/angular-animate/angular-animate.js"></script>
