@@ -8,7 +8,17 @@ function getRotate() {
   return (2 - 4*Math.random()).toFixed(2);
 }
 
+
+/**
+ * Модуль для хранения сервисов
+ */
 angular.module('shriExam1App.service', [])
+  
+  /**
+   * Сервис для работы с данными учеников
+   * @param  {Service} $http Сервис для работы с HTTP-протоколом
+   * @return {Service}
+   */
   .factory('studentsService', function ($http) {
     return {
       dataFile: 'data/students.json',
@@ -32,6 +42,11 @@ angular.module('shriExam1App.service', [])
       }
     };
   })
+  /**
+   * Сервис для работы с данными о лекторах
+   * @param  {Service} $http Сервис для работы с HTTP-протоколом
+   * @return {Service}
+   */
   .factory('lectorsService', function ($http) {
     return {
       dataFile: 'data/lectors_and_lectures.json',

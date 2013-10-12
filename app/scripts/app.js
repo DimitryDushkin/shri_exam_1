@@ -1,17 +1,25 @@
 'use strict';
 
+/**
+ * Подключаемые модули приложения
+ * @type {Module}
+ */
 var app = angular.module('shriExam1App',
                           ['ngRoute',
                            'ngAnimate',
                            'ngSanitize',
                            'shriExam1App.service']);
 
+/**
+ * Пред-стартовая конфигурация приложения
+ * @param  {Service} $routeProvider    Для настройки путей
+ * @param  {Service} $locationProvider Для настройки поведения URLs
+ */
 app.config(function ($routeProvider, $locationProvider) {
     
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/main.html'
       })
       .when('/lectors', {
         templateUrl: 'views/lectors.html',
@@ -44,6 +52,11 @@ app.config(function ($routeProvider, $locationProvider) {
     };
 
   })
+
+  /**
+   * Фильтр для установки первой букве в слове красного цвета
+   * @return {String}
+   */
   .filter('firstLetterRed', function() {
     return function(input) {
       return input.replace(/(.)/, '<span class="red-letter">$1</span>');

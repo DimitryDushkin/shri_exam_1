@@ -1,6 +1,6 @@
 [
   {
-    "Timestamp":"9/28/2013 2:51:14",
+    "sex": "m",
     "first_name":"Никита",
     "last_name":"Попов",
     "city":"Санкт-Петербург",
@@ -12,7 +12,7 @@
     "link_yaru":"losnikitos123.ya.ru"
   },
   {
-    "Timestamp":"9/28/2013 15:13:05",
+    "sex": "m",
     "first_name":"Роман",
     "last_name":"Орловский",
     "city":"Нижний Новгород",
@@ -24,7 +24,7 @@
     "link_yaru":"http://ctuxu-r.ya.ru/"
   },
   {
-    "Timestamp":"9/28/2013 19:10:29",
+    "sex": "m",
     "first_name":"Андрей",
     "last_name":"Морозов",
     "city":"Ставрополь",
@@ -36,7 +36,7 @@
     "link_yaru":"http://luckytrue.ya.ru/"
   },
   {
-    "Timestamp":"9/28/2013 19:37:30",
+    "sex": "m",
     "first_name":"Максим",
     "last_name":"Попков",
     "city":"Балашиха",
@@ -48,7 +48,7 @@
     "link_yaru":"dales3d.ya.ru/"
   },
   {
-    "Timestamp":"9/28/2013 19:46:14",
+    "sex": "m",
     "first_name":"Алексей",
     "last_name":"Кондратов",
     "city":"Москва",
@@ -60,7 +60,7 @@
     "link_yaru":"http://alex-ololo.ya.ru/"
   },
   {
-    "Timestamp":"9/28/2013 19:56:02",
+    "sex": "m",
     "first_name":"Михаил",
     "last_name":"Шустов",
     "city":"Санкт-Петербург",
@@ -72,7 +72,7 @@
     "link_yaru":"http://restrry.ya.ru/"
   },
   {
-    "Timestamp":"9/28/2013 20:07:32",
+    "sex": "m",
     "first_name":"Михаил",
     "last_name":"Коциевский",
     "city":"Одесса",
@@ -84,7 +84,7 @@
     "link_yaru":"http://m-kocijevsky.ya.ru/"
   },
   {
-    "Timestamp":"9/28/2013 21:34:50",
+    "sex": "f",
     "first_name":"Мария",
     "last_name":"Метелёва",
     "city":"Киров",
@@ -96,7 +96,7 @@
     "link_yaru":"http://kotia292007.ya.ru/"
   },
   {
-    "Timestamp":"9/28/2013 21:47:18",
+    "sex": "m",
     "first_name":"Сергей ",
     "last_name":"Максимов",
     "city":"Москва",
@@ -108,7 +108,7 @@
     "link_yaru":"http://hakerxnet.ya.ru/"
   },
   {
-    "Timestamp":"9/29/2013 0:57:50",
+    "sex": "f",
     "first_name":"София",
     "last_name":"Павленко",
     "city":"Москва",
@@ -120,7 +120,7 @@
     "link_yaru":"http://artsonja.ya.ru/"
   },
   {
-    "Timestamp":"9/29/2013 12:57:50",
+    "sex": "f",
     "first_name":"Наталия",
     "last_name":"Смирнова",
     "city":"Иркутск",
@@ -132,7 +132,7 @@
     "link_yaru":"http://indra-uolles.ya.ru/"
   },
   {
-    "Timestamp":"9/29/2013 15:48:22",
+    "sex": "m",
     "first_name":"Павел",
     "last_name":"Мягков",
     "city":"Москва",
@@ -144,7 +144,7 @@
     "link_yaru":"http://p-a-myagkov.ya.ru/"
   },
   {
-    "Timestamp":"9/29/2013 18:22:32",
+    "sex": "m",
     "first_name":"Сергей",
     "last_name":"Борончиев",
     "city":"Санкт-Петербург",
@@ -153,10 +153,10 @@
     "link_facebook":"",
     "link_vk":"",
     "link_gihub":"",
-    "link_yaru":""
+    "link_yaru":"http://s-boronchiev.moikrug.ru/"
   },
   {
-    "Timestamp":"9/29/2013 19:18:30",
+    "sex": "m",
     "first_name":"Александр",
     "last_name":"Нефедов",
     "city":"Ярославль",
@@ -168,7 +168,7 @@
     "link_yaru":"garret-rus.ya.ru/"
   },
   {
-    "Timestamp":"9/29/2013 22:26:22",
+    "sex": "m",
     "first_name":"Дмитрий",
     "last_name":"Душкин",
     "city":"Электросталь",
@@ -180,7 +180,7 @@
     "link_yaru":"http://legato-di.ya.ru/"
   },
   {
-    "Timestamp":"9/30/2013 14:21:34",
+    "sex": "f",
     "first_name":"Анна",
     "last_name":"Минаева",
     "city":"Москва",
@@ -192,7 +192,7 @@
     "link_yaru":"http://rainybowl.ya.ru/"
   },
   {
-    "Timestamp":"9/30/2013 15:35:23",
+    "sex": "f",
     "first_name":"Евгения",
     "last_name":"Костенко",
     "city":"Москва",
@@ -204,7 +204,7 @@
     "link_yaru":"http://eugeshko.ya.ru/"
   },
   {
-    "Timestamp":"9/30/2013 15:45:35",
+    "sex": "f",
     "first_name":"Марина",
     "last_name":"Акимова",
     "city":"Москва",
@@ -216,7 +216,7 @@
     "link_yaru":"http://akimovamp.ya.ru/"
   },
   {
-    "Timestamp":"9/30/2013 16:07:48",
+    "sex": "m",
     "first_name":"Асхат",
     "last_name":"Нуриддинов",
     "city":"Москва",
@@ -228,7 +228,7 @@
     "link_yaru":"http://geromond.ya.ru/"
   },
   {
-    "Timestamp":"9/30/2013 16:30:00",
+    "sex": "m",
     "first_name":"Иван",
     "last_name":"Полюхович",
     "city":"Ярославль",
@@ -240,7 +240,7 @@
     "link_yaru":"http://iamfoont.ya.ru/"
   },
   {
-    "Timestamp":"9/30/2013 20:20:56",
+    "sex": "f",
     "first_name":"Яна",
     "last_name":"Манухина",
     "city":"Москва",
@@ -252,7 +252,7 @@
     "link_yaru":"http://yanenok.ya.ru/"
   },
   {
-    "Timestamp":"10/1/2013 13:38:29",
+    "sex": "m",
     "first_name":"Максим",
     "last_name":"Мялин",
     "city":"Зеленоград",
@@ -264,7 +264,7 @@
     "link_yaru":"http://maximmyalin.ya.ru/"
   },
   {
-    "Timestamp":"10/2/2013 1:29:39",
+    "sex": "m",
     "first_name":"Сергей",
     "last_name":"Попов",
     "city":"Москва",
@@ -276,7 +276,7 @@
     "link_yaru":"http://popitch.ya.ru/"
   },
   {
-    "Timestamp":"10/3/2013 4:05:21",
+    "sex": "m",
     "first_name":"Василий",
     "last_name":"Логиневский",
     "city":"Москва",
