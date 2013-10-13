@@ -1,5 +1,7 @@
 Проект для экзамена в Яндекс ШРИ 2013 – Выпускной альбом ШРИ 2013.
 
+Посмотреть на сайт в работе можно по [ссылке](http://sky2high.net/etc/projects/shri_exam/).
+
 К экзамену также подготовлена сильно урезанная **версия проекта на основе БЭМ** – [https://github.com/DimitryDushkin/shri_exam_1_bem](https://github.com/DimitryDushkin/shri_exam_1_bem).
 
 ## Особенности этого проекта:

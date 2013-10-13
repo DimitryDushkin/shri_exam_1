@@ -717,10 +717,11 @@
 	},
 	"file_history":
 	[
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/main.css",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/students.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/README.md",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/lectors_and_lectures.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/main.css",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/students.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/bootstrap.custom.css",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/app.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/services.js",
@@ -736,7 +737,6 @@
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/raphael/raphael.js",
 		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.jshintrc",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/lectors_and_lectures.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/utils/extract_data.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.custom.less",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/lectors.html",
@@ -870,6 +870,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src=\"/",
+			"photo_url",
+			"link_photo",
 			"душк",
 			"btn ",
 			"}",
@@ -994,10 +997,7 @@
 			"s.",
 			"s",
 			"_and_lectures",
-			"Students",
-			"students",
-			"Students",
-			"students"
+			"Students"
 		],
 		"highlight": true,
 		"in_selection": false,
