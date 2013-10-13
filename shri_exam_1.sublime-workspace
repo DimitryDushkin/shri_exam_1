@@ -5,15 +5,139 @@
 		[
 			[
 				"mar",
+				"margin"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ci",
+				"cities"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"st",
+				"students"
+			],
+			[
+				"scr",
+				"scripts"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mrgin",
+				"margin-right"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"tet",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"marg",
 				"margin-bottom"
+			],
+			[
+				"lec",
+				"lectures"
+			],
+			[
+				"Sel",
+				"selectedSortingType"
+			],
+			[
+				"be",
+				"by-lectors"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"roo",
+				"rootScope"
+			],
+			[
+				"get",
+				"getStudents"
 			],
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"border-r",
@@ -52,10 +176,6 @@
 				"margin-top"
 			],
 			[
-				"padd",
-				"padding-top"
-			],
-			[
 				"font-s",
 				"font-size"
 			],
@@ -66,10 +186,6 @@
 			[
 				"fn",
 				"function"
-			],
-			[
-				"mrgin",
-				"margin-top"
 			],
 			[
 				"try",
@@ -112,10 +228,6 @@
 				"error_logger"
 			],
 			[
-				"get",
-				"get_value/2"
-			],
-			[
 				"a",
 				"apply_interval/4"
 			],
@@ -134,10 +246,6 @@
 			[
 				"pu",
 				"put_latency/2"
-			],
-			[
-				"re",
-				"refreshProperties"
 			],
 			[
 				"se",
@@ -208,16 +316,8 @@
 				"background-color"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"up",
 				"updateList"
-			],
-			[
-				"pa",
-				"padding-right"
 			],
 			[
 				"Func",
@@ -246,10 +346,6 @@
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"ser",
@@ -300,10 +396,6 @@
 				"error_logger"
 			],
 			[
-				"st",
-				"strong	Tag"
-			],
-			[
 				"late",
 				"latencies"
 			],
@@ -327,68 +419,48 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/students.html",
-			"settings":
-			{
-				"buffer_size": 1793,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/main.css",
-			"settings":
-			{
-				"buffer_size": 3935,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/controllers/lectors.js",
-			"settings":
-			{
-				"buffer_size": 209,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/data/lectors.json",
-			"settings":
-			{
-				"buffer_size": 18915,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/lectors.html",
-			"settings":
-			{
-				"buffer_size": 595,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/services/services.js",
-			"settings":
-			{
-				"buffer_size": 1459,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 159.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
-				"head",
-				"Snippet: bs3-panel-heading"
-			],
-			[
 				"prett",
 				"HTMLPrettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"JSON",
+				"Set Syntax: JSON"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"head",
+				"Snippet: bs3-panel-heading"
 			],
 			[
 				"ins",
@@ -411,10 +483,6 @@
 				"Snippet: bs3-block-button-success"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"jshin",
 				"JSHint: Set Linting Preferences"
 			],
@@ -433,10 +501,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"js",
@@ -559,16 +623,8 @@
 				"Indentation: Reindent Lines"
 			],
 			[
-				"html",
-				"Set Syntax: HTML (Django)"
-			],
-			[
 				"in",
 				"Package Control: Install Package"
-			],
-			[
-				"wrap",
-				"Word Wrap: Toggle"
 			],
 			[
 				"form",
@@ -661,26 +717,51 @@
 	},
 	"file_history":
 	[
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.gitignore",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/bower.json",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/index.html",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/app.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/students.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/Gruntfile.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/services.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/main.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/main.css",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/students.json",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/dist/index.html",
-		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/README.md",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/bootstrap.custom.css",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/app.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/services.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/main.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.gitignore",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/students.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/main.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/lectors.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/nnnick-chartjs/Chart.min.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/index.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/bower.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/charting/piechart.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/raphael/raphael.js",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.jshintrc",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/lectors_and_lectures.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/utils/extract_data.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.custom.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/lectors.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/Gruntfile.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/grid.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.slate.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/.gitignore",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.gitattributes",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.less",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/shri_exam_1.sublime-project",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/spec/services/lectorsService.js",
+		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/lectors.json",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.tmp/styles/main.css",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/karma.conf.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/spec/controllers/lectors.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/spec/services/studentsService.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/spec/services/services.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/karma-e2e.conf.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/spec/controllers/main.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/runner.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/dist/index.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/studentsService.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/variables.less",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.custom.less",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.jshintrc",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/test/spec/services/studentsService.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootstrap.slate.less",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/bootswatch.slate.less",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/navs.less",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/type.less",
@@ -763,32 +844,7 @@
 		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/dissertation.tex",
 		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/part2.tex",
 		"/Users/ddushkin/Documents/Google Drive/_Диссертация_/Диссертация/dissertation.synctex.gz",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/__Main__Latex/title.tex",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/__Main__Latex/dissertation.tex",
-		"/Users/ddushkin/Desktop/Main LaTeX/dissertation.tex",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/Main LaTeX/dissertation.tex",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/dissertation.tex",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/packages.tex",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/styles.tex",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/title.tex",
-		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/LaTeX версия/Dissertation/names.tex",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/test/et_tester_tests.erl",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/registry/views.py",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_tester.erl",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/js/app.js",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_db.erl",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/registry/models.py",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/main.css",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/partials/service-add.html",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/js/service-detail-ctrl.js",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/partials/service-detail.html",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/js/service-add-ctrl.js",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/static/index.html",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_gae/index.yaml",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/docs/readme",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry_repo/ws_registry_erlang_server/apps/erlang_ws_tester/src/et_web_face.erl",
-		"/Users/ddushkin/Library/Application Support/Sublime Text 2/Packages/Java/JavaC.sublime-build",
-		"/Users/ddushkin/Documents/Google Drive/workspaces/development/ws_registry"
+		"/Users/ddushkin/Documents/Google Drive/ИПУ РАН/Диссертация/__Main__Latex/title.tex"
 	],
 	"find":
 	{
@@ -814,6 +870,122 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"душк",
+			"btn ",
+			"}",
+			"Bar",
+			"fillTex",
+			"\"",
+			"$scope.cities",
+			"chartData",
+			"cities",
+			"stude",
+			"show_all_details",
+			"show_about",
+			"toggle_statistics",
+			"labelFon",
+			"\"",
+			"MyChart",
+			"tspan",
+			"r",
+			"320",
+			"rad",
+			"200",
+			"labels",
+			"angular",
+			"angular-sanitize",
+			"a",
+			"\"age\":",
+			"age",
+			"href=",
+			"борон",
+			"first_name",
+			"Timestamp",
+			"bower-",
+			"imagemin",
+			"imagem",
+			"img",
+			"imgmi",
+			"htmlm",
+			"rev",
+			"cssm",
+			"rev",
+			"dist",
+			"svgmin",
+			"mountFolder",
+			"open",
+			"concu",
+			"con",
+			"bowe",
+			"autop",
+			"-webkit-",
+			"1s",
+			"cubic-bezier(0.250, 0.460, 0.450, 0.940)",
+			"1.5s",
+			"example-animate-container",
+			"view-example",
+			"http://avatars.yandex.net/",
+			"-45",
+			"135",
+			"top",
+			"span",
+			"32",
+			"24",
+			"border",
+			"color",
+			"box-shadow",
+			"Системы",
+			"video_url",
+			"background",
+			"span",
+			"data",
+			"#!",
+			"lectors",
+			" \"",
+			"редактирование",
+			"браузера",
+			"протокол",
+			"elem",
+			" (ШРИ 2013)",
+			" \",",
+			" \"",
+			"Изучение и редактирование кода",
+			"native_id",
+			"\"id\"",
+			"lector_id",
+			"Ашик",
+			"</span>\n              </div>\n            </a>\n          </div>\n        </td>\n      </tr>",
+			"</span>\n                <span class=\"username__workat username__workat_inline_yes\">, Яндекс</span>\n              </div>\n            </a>\n          </div>\n        </td>\n      </tr>",
+			"<tr class=\"hall-schedule__talk\">\n        <td class=\"hall-schedule__section\">\n          <div class=\"section-title\">\n            <div class=\"section-title__icon\" style=\"background-color: ;\"></div>\n          </div>\n        </td>\n        <td class=\"hall-schedule__info\">\n          <div class=\"hall-schedule__talk-name\">",
+			"</a>\n          </div>\n          <div class=\"hall-schedule__speakers\">",
+			"              <div class=\"username__info\">\n                <span class=\"username__name\">",
+			"<span class=\"username__first-letter\">",
+			"181",
+			"593",
+			"person",
+			"hsla(0,0%,0%,.5)",
+			"428bca",
+			"Student",
+			"student",
+			"Student",
+			"student",
+			"p",
+			"student",
+			"Students",
+			"students",
+			"/events",
+			"ашик",
+			"li",
+			"ul",
+			"div",
+			"items",
+			"Students",
+			"students",
+			"Students",
+			"students",
+			"_studentsService_",
+			"rootScope",
+			"e2e",
 			"lectors",
 			"\"",
 			"'",
@@ -825,123 +997,7 @@
 			"Students",
 			"students",
 			"Students",
-			"students",
-			"></a>",
-			"><",
-			"ng-show",
-			"line-height",
-			"height",
-			"ng-cloak",
-			"hide-",
-			"remove",
-			"add",
-			"all",
-			"0.5s",
-			"linear",
-			"linei",
-			"height",
-			"ng-remove",
-			"ng-",
-			"coffee",
-			"'coffee',",
-			"coffe",
-			"some-element",
-			"title=\"",
-			"/img/",
-			"href=\"",
-			"img",
-			"images",
-			"title=\"",
-			"}}\">",
-			"{{ ",
-			"F0F0F5",
-			"\n\n            ",
-			"-webkit-box-shadow",
-			"-moz-box-shadow",
-			"-o-transform",
-			"-webkit-transform: rotate(-45deg);\n     -moz-transform: rotate(-45deg);\n      -ms-transform: rotate(-45deg);\n       -o-transform: rotate(-45deg);",
-			"left: -50px;",
-			"\n.",
-			".top-corners",
-			"span",
-			"380",
-			"studentsService",
-			"Studentsservice",
-			"autopr",
-			"'autoprefixer',",
-			"concat",
-			"-item",
-			"radi",
-			"radius",
-			"pill",
-			"button",
-			"instal",
-			"load",
-			"load]",
-			"bower",
-			"1.2.0-rc2",
-			"~1.0.7",
-			"',",
-			"\"",
-			"~1.0.7",
-			"\\textar",
-			"Тогда",
-			"caption",
-			"golfer.ps",
-			"\\end{figure}",
-			"\\vspace*{-1.5mm}",
-			"\\vspace*{-1mm}",
-			"\\vspace{1mm}",
-			"\\vspace{3mm}",
-			"\\vspace{5mm}",
-			"«",
-			"Для ре",
-			"0.5em",
-			"как крит",
-			"реализую",
-			"и метод",
-			"textbf",
-			"href",
-			"c.",
-			"с.",
-			"1,",
-			"уткин",
-			"1!",
-			"\n",
-			"ЛПР",
-			"рациональный выбор",
-			"сервис-ориентированной архитектуры",
-			"В связи с этим при проектировании систем с СОА возникают две связанные задачи: формирование набора критериев сравнения веб-сервисов и рациональный выбор композиции веб-сервисов для решения определенной задачи. Под рациональным выбором\n",
-			"рациональным выбором",
-			"метод оп",
-			"\\textbf{",
-			"mu(x)",
-			"x",
-			"MTBF_",
-			"не пред",
-			"В совр",
-			"Литл",
-			"»",
-			"«",
-			"*",
-			"\\l",
-			"Васи",
-			"уменьшим",
-			"Бело",
-			"\\item",
-			"предпо",
-			"ое",
-			"label",
-			"»",
-			"«",
-			"вею",
-			"Compute",
-			"compute",
-			"Compute",
-			"compute",
-			"Compute",
-			"}",
-			"{"
+			"students"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -972,179 +1028,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/students.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1793,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4,
-								6
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/styles/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3935,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								490,
-								490
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 100.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/scripts/controllers/lectors.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 209,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								195,
-								195
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/data/lectors.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18915,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 897.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/lectors.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 595,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								360,
-								360
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/scripts/services/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1459,
-								1459
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1199,16 +1084,84 @@
 		"selected_items":
 		[
 			[
-				"inde",
+				"main",
+				"app/styles/main.css"
+			],
+			[
+				"in",
 				"app/index.html"
+			],
+			[
+				"char",
+				"app/bower_components/nnnick-chartjs/Chart.min.js"
+			],
+			[
+				"stud",
+				"app/views/students.html"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"rap",
+				"app/bower_components/raphael/raphael.js"
+			],
+			[
+				"raph",
+				"app/bower_components/raphael/raphael.js"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"sut",
+				"app/views/students.html"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"stu",
+				"app/views/students.html"
 			],
 			[
 				"app",
 				"app/scripts/app.js"
 			],
 			[
-				"grun",
-				"Gruntfile.js"
+				"mai",
+				"app/styles/main.css"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"lectorss",
+				"test/spec/services/lectorsService.js"
+			],
+			[
+				"serv",
+				"test/spec/services/services.js"
+			],
+			[
+				"ser",
+				"app/scripts/services/services.js"
+			],
+			[
+				"sevrice",
+				"test/spec/services/services.js"
+			],
+			[
+				"inde",
+				"app/index.html"
 			],
 			[
 				"studen",
@@ -1303,10 +1256,6 @@
 				"packages.tex"
 			],
 			[
-				"in",
-				"introduction.tex"
-			],
-			[
 				"part1",
 				"part1.tex"
 			],
@@ -1351,10 +1300,6 @@
 				"ws_registry_gae/static/main.css"
 			],
 			[
-				"index",
-				"ws_registry_gae/static/index.html"
-			],
-			[
 				"detail",
 				"ws_registry_gae/static/js/service-detail-ctrl.js"
 			],
@@ -1373,10 +1318,6 @@
 			[
 				"detai",
 				"ws_registry_gae/static/partials/service-detail.html"
-			],
-			[
-				"main",
-				"ws_registry_gae/main.py"
 			],
 			[
 				"sett",

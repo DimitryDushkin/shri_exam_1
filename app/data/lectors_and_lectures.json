@@ -1,7 +1,7 @@
 [{
     "name": "Алексей Бережной",
     "about": "До Яндекса занимался разработкой браузерной MMORPG. С 2011 года работает над интерфейсом Яндекс.Директа.",
-    "photo_url": "/img/lectors/365x365 (1).jpeg",
+    "photo_url": "img/lectors/365x365 (1).jpeg",
     "all_lectures": [{
         "name": "HTTP-протокол",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1328/",
@@ -16,7 +16,7 @@
 }, {
     "name": "Анна Чеботкевич",
     "about": null,
-    "photo_url": "/img/lectors/365x365.jpeg",
+    "photo_url": "img/lectors/365x365.jpeg",
     "all_lectures": [{
         "name": "Вводная по ШРИ",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1286/",
@@ -26,7 +26,7 @@
 }, {
     "name": "Виктор Ашик",
     "about": null,
-    "photo_url": "/img/lectors/365x365 (3).jpeg",
+    "photo_url": "img/lectors/365x365 (3).jpeg",
     "all_lectures": [{
         "name": "Командная строка Unix",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1292/",
@@ -36,7 +36,7 @@
 }, {
     "name": "Георгий Мостоловица",
     "about": "Веб-разработчик. В Яндексе занимается ускорением фронтенда Поиска.",
-    "photo_url": "/img/lectors/365x365 (2).jpeg",
+    "photo_url": "img/lectors/365x365 (2).jpeg",
     "all_lectures": [{
         "name": "Механизм работы браузера",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1329/",
@@ -46,7 +46,7 @@
 }, {
     "name": "Денис Бугарчев",
     "about": "Верстальщик, разработчик веб-интерфейсов, автор подкаста о веб-разработке «Сделайте мне красиво!».",
-    "photo_url": "/img/lectors/365x365 (4).jpeg",
+    "photo_url": "img/lectors/365x365 (4).jpeg",
     "all_lectures": [{
         "name": "Архитектура веб-сервисов",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1345/",
@@ -61,7 +61,7 @@
 }, {
     "name": "Дмитрий Поляков",
     "about": null,
-    "photo_url": "/img/lectors/365x365 (5).jpeg",
+    "photo_url": "img/lectors/365x365 (5).jpeg",
     "all_lectures": [{
         "name": "История успеха выпускников ШРИ",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1288/",
@@ -71,7 +71,7 @@
 }, {
     "name": "Евгений Дорошенко",
     "about": null,
-    "photo_url": "/img/lectors/365x365 (6).jpeg",
+    "photo_url": "img/lectors/365x365 (6).jpeg",
     "all_lectures": [{
         "name": "Кеширование на клиенте и сервере",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1330/",
@@ -81,7 +81,7 @@
 }, {
     "name": "Игорь Новак",
     "about": "Разработчик интерфейсов",
-    "photo_url": "/img/lectors/365x365 (7).jpeg",
+    "photo_url": "img/lectors/365x365 (7).jpeg",
     "all_lectures": [{
         "name": "Изучение и редактирование кода",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1293/",
@@ -91,7 +91,7 @@
 }, {
     "name": "Марина Широчкина",
     "about": "Занимается тестированием уже девять лет. В Яндексе с 2007 года. Последний год работает в группе производительности интерфейсов.",
-    "photo_url": "/img/lectors/365x365 (8).jpeg",
+    "photo_url": "img/lectors/365x365 (8).jpeg",
     "all_lectures": [{
         "name": "Тестирование",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1326/",
@@ -101,7 +101,7 @@
 }, {
     "name": "Михаил Трошев",
     "about": null,
-    "photo_url": "/img/lectors/365x365 (10).jpeg",
+    "photo_url": "img/lectors/365x365 (10).jpeg",
     "all_lectures": [{
         "name": "Общий цикл разработки (dev-cycle)",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1289/",
@@ -111,7 +111,7 @@
 }, {
     "name": "Роман Андриади",
     "about": "Работает в департаменте эксплуатации Яндекса с 2005 года. С 2010 года —руководитель группы администрирования коммуникационных, контент- и внутренних сервисов.",
-    "photo_url": "/img/lectors/365x365 (9).jpeg",
+    "photo_url": "img/lectors/365x365 (9).jpeg",
     "all_lectures": [{
         "name": "Развертывание верстки",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1327/",
@@ -121,7 +121,7 @@
 }, {
     "name": "Сергей Сергеев",
     "about": "Профессионально занимается разработкой уже более 10 лет, из них 5 в Яндексе.",
-    "photo_url": "/img/lectors/365x365 (11).jpeg",
+    "photo_url": "img/lectors/365x365 (11).jpeg",
     "all_lectures": [{
         "name": "Системы контроля версий",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1321/",
@@ -131,7 +131,7 @@
 }, {
     "name": "Сергей Черкасов",
     "about": null,
-    "photo_url": "/img/lectors/365x365 (12).jpeg",
+    "photo_url": "img/lectors/365x365 (12).jpeg",
     "all_lectures": [{
         "name": "Вики-синтаксис",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1291/",
@@ -146,7 +146,7 @@
 }, {
     "name": "Тарас Иващенко",
     "about": "Администратор информационной безопасности в Яндексе. Специалист по информационной безопасности, проповедник свободного программного обеспечения, участник проектов w3af и OWASP.",
-    "photo_url": "/img/lectors/365x365 (13).jpeg",
+    "photo_url": "img/lectors/365x365 (13).jpeg",
     "all_lectures": [{
         "name": "Безопасность веб-приложений",
         "url": "http://tech.yandex.ru/events/shri/msk-2013/talks/1337/",
