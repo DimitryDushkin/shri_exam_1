@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"studentsData"
+			],
+			[
+				"stude",
+				"studentsData"
+			],
+			[
 				"mar",
 				"margin"
 			],
@@ -150,10 +158,6 @@
 			[
 				"list-s",
 				"list-style"
-			],
-			[
-				"s",
-				"students"
 			],
 			[
 				"studen",
@@ -718,20 +722,21 @@
 	"file_history":
 	[
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/README.md",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/index.html",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/services.js",
+		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/package.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/lectors_and_lectures.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/students.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/main.css",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/data/students.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/styles/bootstrap.custom.css",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/app.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/services/services.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/views/main.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/.gitignore",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/students.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/main.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/controllers/lectors.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/nnnick-chartjs/Chart.min.js",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/index.html",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/bower.json",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/scripts/charting/piechart.js",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/raphael/raphael.js",
@@ -766,7 +771,6 @@
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/navs.less",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/type.less",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/app/bower_components/bootstrap/less/variables.slate.less",
-		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/shri_exam_1/package.json",
 		"/Users/ddushkin/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
 		"/Users/ddushkin/Documents/workspaces/eclipse-kepler/project-stub/desktop.bundles/index/index.bemjson.js",
 		"/Users/ddushkin/Desktop/natalia/simpsons/parallaxSimpsons.html",

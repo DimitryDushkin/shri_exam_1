@@ -19,8 +19,9 @@ angular.module('shriExam1App.service', [])
    * @param  {Service} $http Сервис для работы с HTTP-протоколом
    * @return {Service}
    */
-  .factory('studentsService', function ($http) {
+  .factory('studentsService', function ($http, $q) {
     return {
+      self: this,
       dataFile: 'data/students.json',
 
       /**
@@ -28,7 +29,7 @@ angular.module('shriExam1App.service', [])
        * @return {$q.defer().promise} Promise object with future data as js array
        */
       getStudents: function() {
-        return $http.get(this.dataFile)
+        return $http.get(this.dataFile, { cache: true})
           .error(function() {
             console.log('Cannot get students\' data');
           })
@@ -37,6 +38,7 @@ angular.module('shriExam1App.service', [])
             for (var k in items) {
               items[k].rotation_degree = getRotate();
             }
+
             return items;
           });
       }
@@ -56,7 +58,7 @@ angular.module('shriExam1App.service', [])
        * @return {$q.defer().promise} Promise object with future data as js array
        */
       getLectors: function() {
-        return $http.get(this.dataFile)
+        return $http.get(this.dataFile, { cache: true})
           .error(function() {
             console.log('Cannot get lectors\' data');
           })
